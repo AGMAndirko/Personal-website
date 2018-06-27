@@ -12,5 +12,23 @@
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Differences on the OXTR between modern humans and extinct hominids: a window to our language-ready behavior.</title>
+      <link>/publication/oxtr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/oxtr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The symbolic species?</title>
+      <link>/publication/ubics2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ubics2018/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

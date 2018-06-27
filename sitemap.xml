@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>/posters/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
@@ -134,6 +143,22 @@
     
     <url>
     
+      <loc>/posters/oxtr/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/oxtr/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/genetics/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
@@ -146,15 +171,6 @@
     
       <loc>/tags/human-evolution/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/posters/</loc>
       <priority>0</priority>
     </url>
     
@@ -193,6 +209,14 @@
     <url>
     
       <loc>/posters/ubics2018/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/ubics2018/</loc>
     </url>
     
   
