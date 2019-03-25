@@ -76,14 +76,6 @@
     
     <url>
     
-      <loc>/posts/isle19/</loc>
-      <lastmod>2019-03-07T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/author/admin/</loc>
     </url>
     
@@ -325,15 +317,6 @@
     
       <loc>/tags/ipscs/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/isle/</loc>
-      <lastmod>2019-03-07T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
