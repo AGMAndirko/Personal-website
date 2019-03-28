@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EMBL on Alejandro Andirkó</title>
+    <link>/tags/embl/</link>
+    <description>Recent content in EMBL on Alejandro Andirkó</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy2019</copyright>
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/embl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EMBL - Reconstructing the Human Past 2019</title>
+      <link>/posts/embl19/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/posts/embl19/</guid>
+      <description>ADD THE ONE WITH FOUR SCENARIOS AFRICA
+https://www.ncbi.nlm.nih.gov/pubmed/28196867
+https://www.ncbi.nlm.nih.gov/pubmed/25156276
+Bruner endocasts https://doi.org/10.26879/805
+Xia J, Gill E, &amp;amp; Hancock REW (2015). NetworkAnalyst for Statistical, Visual and Network-based Approaches for Meta-analysis of Expression Data. Nature Protocols 10, 823–844 https://doi.org/10.1038/nprot.2015.052
+Peyrégne, S, et al. Detecting Ancient Positive Selection in Humans Using Extended Lineage Sorting. Genome Research, vol. 27, no. 9, Sept. 2017, pp. 1563–72. https://doi.10.1101/gr.219493.116.
+Racimo, F. “Testing for Ancient Selection Using Cross-Population Allele Frequency Differentiation.</description>
+    </item>
+    
+  </channel>
+</rss>
