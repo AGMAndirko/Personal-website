@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EMBL on Alejandro Andirkó</title>
+    <link>/tags/embl/</link>
+    <description>Recent content in EMBL on Alejandro Andirkó</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy2019</copyright>
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/embl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>EMBL - Reconstructing the Human Past 2019</title>
+      <link>/posts/embl19/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/posts/embl19/</guid>
+      <description>Henn, Brenna M., et al. “Clarifying Distinct Models of Modern Human Origins in Africa.” Current Opinion in Genetics &amp;amp; Development, vol. 53, Dec. 2018, pp. 148–56. https://doi.org/10.1016/j.gde.2018.10.003
+Bas-Orth, Carlos, et al. “Synaptic Activity Drives a Genomic Program That Promotes a Neuronal Warburg Effect.” Journal of Biological Chemistry, vol. 292, no. 13, Mar. 2017, pp. 5183–94.
+https://doi.org/10.1074/jbc.M116.761106.
+McVicker, Derrick P., et al. “Signaling to the Microtubule Cytoskeleton: An Unconventional Role for CaMKII: CaMKII Signaling to Microtubules.</description>
+    </item>
+    
+  </channel>
+</rss>

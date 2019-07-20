@@ -4,8 +4,24 @@
     
     <url>
     
-      <loc>/post/isle/</loc>
+      <loc>/posts/embl19/</loc>
       <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/posts/isle/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publications/baz1b/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -60,7 +76,7 @@
     
     <url>
     
-      <loc>/post/eshe18/</loc>
+      <loc>/posts/eshe18/</loc>
       <lastmod>2018-01-13T00:00:00+01:00</lastmod>
     </url>
     
@@ -93,6 +109,24 @@
     
     <url>
     
+      <loc>/authors/adrianos-skaros/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/alejandro-andirko/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/</loc>
       <lastmod>2019-03-05T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -103,6 +137,24 @@
     <url>
     
       <loc>/authors/alejandro-andirk%C3%B3/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/alessandro-vitriolo/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/alvaro-rada-iglesias/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -172,6 +224,15 @@
     
     <url>
     
+      <loc>/tags/collaboration/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/conference/</loc>
       <lastmod>2019-03-05T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -217,6 +278,15 @@
     
     <url>
     
+      <loc>/tags/embl/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/eshe/</loc>
       <lastmod>2018-01-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -235,7 +305,34 @@
     
     <url>
     
+      <loc>/authors/giuseppe-merla/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/giuseppe-testa/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/glutamate/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/ipscs/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -253,7 +350,52 @@
     
     <url>
     
+      <loc>/authors/magdalena-laugsch/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/matteo-zanella/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/natascia-malerba/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/pedro-t-martins/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/authors/pedro-tiago-martins/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/pierre-luc-germain/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -271,7 +413,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>/posts/</loc>
       <lastmod>2019-03-05T00:00:00+01:00</lastmod>
     </url>
     
@@ -306,6 +448,15 @@
     
       <loc>/authors/saleh-alamri/</loc>
       <lastmod>2018-03-15T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/sebastiano-trattaro/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -364,7 +515,25 @@
     
     <url>
     
+      <loc>/authors/thomas-orourke/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/vocal-learning/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/williams-syndrome/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>

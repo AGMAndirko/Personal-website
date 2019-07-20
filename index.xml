@@ -11,11 +11,44 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>ISLE workshop 2019</title>
-      <link>/post/isle/</link>
+      <title>EMBL - Reconstructing the Human Past 2019</title>
+      <link>/posts/embl19/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
       
-      <guid>/post/isle/</guid>
+      <guid>/posts/embl19/</guid>
+      <description>&lt;p&gt;Henn, Brenna M., et al. “Clarifying Distinct Models of Modern Human Origins in Africa.” Current Opinion in Genetics &amp;amp; Development, vol. 53, Dec. 2018, pp. 148–56.
+&lt;a href=&#34;https://doi.org/10.1016/j.gde.2018.10.003&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.gde.2018.10.003&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bas-Orth, Carlos, et al. “Synaptic Activity Drives a Genomic Program That Promotes a Neuronal Warburg Effect.” Journal of Biological Chemistry, vol. 292, no. 13, Mar. 2017, pp. 5183–94.&lt;br /&gt;
+&lt;a href=&#34;https://doi.org/10.1074/jbc.M116.761106&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1074/jbc.M116.761106&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;McVicker, Derrick P., et al. “Signaling to the Microtubule Cytoskeleton: An Unconventional Role for CaMKII: CaMKII Signaling to Microtubules.” Developmental Neurobiology, vol. 75, no. 4, Apr. 2015, pp. 423–34.  &lt;a href=&#34;https://doi.org/10.1002/dneu.22227&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1002/dneu.22227&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bruner, Emiliano, and Naomichi Ogihara. “Surfin’ Endocasts: The Good and the Bad on Brain Form.” Palaeontologia Electronica, 2018, pp. 1–10. &lt;a href=&#34;https://doi.org/10.26879/805&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.26879/805&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Xia J, Gill E, &amp;amp; Hancock REW (2015). &lt;em&gt;NetworkAnalyst for Statistical, Visual and Network-based Approaches for Meta-analysis of Expression Data&lt;/em&gt;. Nature Protocols 10, 823–844.
+&lt;a href=&#34;https://doi.org/10.1038/nprot.2015.052&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1038/nprot.2015.052&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Peyrégne, S, et al. &lt;em&gt;Detecting Ancient Positive Selection in Humans Using Extended Lineage Sorting.&lt;/em&gt; Genome Research, vol. 27, no. 9, Sept. 2017, pp. 1563–72.
+&lt;a href=&#34;https://doi.10.1101/gr.219493.116&#34; target=&#34;_blank&#34;&gt;https://doi.10.1101/gr.219493.116&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Racimo, F. “Testing for Ancient Selection Using Cross-Population Allele Frequency Differentiation.” Genetics, vol. 202, no. 2, Feb. 2016, pp. 733–50.
+&lt;a href=&#34;https://doi:10.1534/genetics.115.178095&#34; target=&#34;_blank&#34;&gt;https://doi:10.1534/genetics.115.178095&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Goyal, M S, Hawrylycz, M., Miller, J. A., Snyder, A. Z., &amp;amp; Raichle, M. E. (2014). &lt;em&gt;Aerobic glycolysis in the human brain is associated with development and neotenous gene expression&lt;/em&gt;. Cell Metabolism, 19(1), 49–57. &lt;a href=&#34;https://doi.org/10.1016/j.cmet.2013.11.020&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.cmet.2013.11.020&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Kuhlwilm, M, &amp;amp; Boeckx, C (2019). &lt;em&gt;A catalog of single nucleotide changes distinguishing modern humans from archaic hominins&lt;/em&gt;. BioRxiv, 298950. &lt;a href=&#34;https://doi.org/10.1101/298950&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1101/298950&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Somel, M, Liu, X, &amp;amp; Khaitovich, P. (2013). &lt;em&gt;Human brain evolution: transcripts, metabolites and their regulators&lt;/em&gt;. Nature Reviews Neuroscience, 14(2), 112–127. &lt;a href=&#34;https://doi.org/10.1038/nrn3372&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1038/nrn3372&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ISLE workshop 2019</title>
+      <link>/posts/isle/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/posts/isle/</guid>
       <description>&lt;p&gt;Enard, W., Gehre, S., Hammerschmidt, K., Hölter, S. M., Blass, T., Somel, M., … Pääbo, S. (2009). &lt;em&gt;A humanized version of foxp2 affects cortico-basal ganglia circuits in mice&lt;/em&gt;. Cell, 137(5), 961–971. &lt;a href=&#34;https://doi.org/10.1016/j.cell.2009.03.041&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.cell.2009.03.041&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Goyal, M. S., Hawrylycz, M., Miller, J. A., Snyder, A. Z., &amp;amp; Raichle, M. E. (2014). &lt;em&gt;Aerobic glycolysis in the human brain is associated with development and neotenous gene expression&lt;/em&gt;. Cell Metabolism, 19(1), 49–57. &lt;a href=&#34;https://doi.org/10.1016/j.cmet.2013.11.020&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1016/j.cmet.2013.11.020&lt;/a&gt;&lt;/p&gt;
@@ -26,6 +59,15 @@
 
 &lt;p&gt;Somel, M., Liu, X., &amp;amp; Khaitovich, P. (2013). &lt;em&gt;Human brain evolution: transcripts, metabolites and their regulators&lt;/em&gt;. Nature Reviews Neuroscience, 14(2), 112–127. &lt;a href=&#34;https://doi.org/10.1038/nrn3372&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1038/nrn3372&lt;/a&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>7q11.23 Syndromes Reveal BAZ1B as a Master Regulator of the Modern Human Face and Validate the Self-Domestication Hypothesis</title>
+      <link>/publications/baz1b/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/publications/baz1b/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -77,7 +119,7 @@
     </item>
     
     <item>
-      <title>The &#39;guns, arms &amp; steel&#39; underlying Homo Sapiens unique material culture</title>
+      <title>The &#39;guns, germs &amp; steel&#39; underlying Homo Sapiens unique material culture</title>
       <link>/talk/evolang18/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
       
@@ -87,10 +129,10 @@
     
     <item>
       <title>ESHE 2018 impressions</title>
-      <link>/post/eshe18/</link>
+      <link>/posts/eshe18/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/post/eshe18/</guid>
+      <guid>/posts/eshe18/</guid>
       <description>&lt;p&gt;This year, the 8th European Society of Human Evolution meeting was held in Faro, (south Portugal). In a certain sense, holding a conference in the south of the iberian peninsula, home to the last Neanderthals, could be considered a felt homage to the diversity of the human family tree. The Calpe Museum in Gibraltar holds a parallel conference on Neanderthals, and not to far off, in Rabat, Morocco, the &lt;a href=&#34;http://panaf18.fsoujda.org/en/home/&#34; target=&#34;_blank&#34;&gt;PanAf&lt;/a&gt; (PanAfrican Archaeological Association for Prehistory and Related Studies) was taking place. Three major scientific events related to human evolution almost at the same time, to the delight of those following on Twitter - and the chagrin of the ESHE organization.&lt;/p&gt;
 
 &lt;p&gt;The fact that there were around 400 attendants allowed to have an overall impression to the field, from lithics to bones and genetics. As a very interdisciplinary cognitive scientist, I was very much satisfied with the diversity of fields represented, all of them offering insights into our history - as we need as much information as we can gather. Underlying most talks was the idea that we can&amp;rsquo;t no longer think about a &amp;lsquo;craddle of humanity&amp;rsquo;, but several, and that this diversity is key to understand our deep evolutionary history. The fossil record shows an incredible range of archaic and modern looking fossils in overlapping time frames, distributed spatially all over the African continent, yet most archaeological research is done at the same old places, like the Afar basin, in Ethiopia. Broadening our horizons means digging in different sites, as the opening lecture by René Bobe emphasized - and the field is taking good note.&lt;/p&gt;
