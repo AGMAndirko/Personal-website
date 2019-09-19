@@ -1,5 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/bibliography/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/conference/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/embl/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     <url>
@@ -14,6 +58,59 @@
     
       <loc>/posts/isle/</loc>
       <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/poster/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/posts/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/admin/</loc>
+      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/3/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -36,79 +133,6 @@
     
     <url>
     
-      <loc>/publications/oxt/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tutorial/example/</loc>
-      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tutorial/</loc>
-      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/evolang18/</loc>
-      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/posts/eshe18/</loc>
-      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/author/admin/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/-cedric-boeckx/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/authors/adrianos-skaros/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -120,15 +144,6 @@
     
       <loc>/authors/alejandro-andirko/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -163,51 +178,8 @@
     
     <url>
     
-      <loc>/authors/andirko-alejandro/</loc>
+      <loc>/tags/brain/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/archaeology/</loc>
-      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/author/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/bibliography/</loc>
-      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -233,27 +205,17 @@
     
     <url>
     
-      <loc>/tags/conference/</loc>
-      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/conference-report/</loc>
-      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/authors/constantina-theofanopoulou/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publications/gtex/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -271,24 +233,6 @@
     
       <loc>/tags/dopamine/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/embl/</loc>
-      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/eshe/</loc>
-      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -341,15 +285,6 @@
     
     <url>
     
-      <loc>/tags/interdisciplinary/</loc>
-      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/authors/magdalena-laugsch/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -371,6 +306,14 @@
       <loc>/authors/natascia-malerba/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publications/oxt/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -404,23 +347,6 @@
     
     <url>
     
-      <loc>/tags/poster/</loc>
-      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/posts/</loc>
-      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication_types/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -446,33 +372,9 @@
     
     <url>
     
-      <loc>/authors/saleh-alamri/</loc>
-      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/authors/sebastiano-trattaro/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/slides/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/slides/example-slides/</loc>
     </url>
     
   
@@ -489,24 +391,6 @@
     <url>
     
       <loc>/authors/stefanie-sturm/</loc>
-      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/thomas-orourke/</loc>
       <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -542,9 +426,149 @@
     
     <url>
     
-      <loc>/authors/admin/</loc>
-      <lastmod>2019-03-05T00:00:00+01:00</lastmod>
+      <loc>/tags/eqtl/</loc>
+      <lastmod>2019-01-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tutorial/example/</loc>
+      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tutorial/</loc>
+      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/privacy/</loc>
+      <lastmod>2018-06-28T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/archaeology/</loc>
+      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/interdisciplinary/</loc>
+      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/saleh-alamri/</loc>
+      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/evolang18/</loc>
+      <lastmod>2018-03-15T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/conference-report/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/posts/embl_report/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/eshe/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/posts/eshe18/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/human-evolution/</loc>
+      <lastmod>2018-01-13T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/author/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/slides/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/slides/example-slides/</loc>
     </url>
     
   

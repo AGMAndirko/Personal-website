@@ -7,17 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy2019</copyright>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title> Cedric Boeckx</title>
-      <link>/authors/-cedric-boeckx/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      <title>admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
       
-      <guid>/authors/-cedric-boeckx/</guid>
+      <guid>/authors/admin/</guid>
       <description></description>
     </item>
     
@@ -63,15 +63,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/authors/alvaro-rada-iglesias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Andirko Alejandro</title>
-      <link>/authors/andirko-alejandro/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/andirko-alejandro/</guid>
       <description></description>
     </item>
     
@@ -166,15 +157,6 @@
     </item>
     
     <item>
-      <title>Saleh Alamri</title>
-      <link>/authors/saleh-alamri/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/saleh-alamri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sebastiano Trattaro</title>
       <link>/authors/sebastiano-trattaro/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
@@ -193,15 +175,6 @@
     </item>
     
     <item>
-      <title>Thomas O&#39;Rourke</title>
-      <link>/authors/thomas-orourke/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/thomas-orourke/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Thomas O’Rourke</title>
       <link>/authors/thomas-orourke/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
@@ -211,11 +184,11 @@
     </item>
     
     <item>
-      <title>admin</title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
+      <title>Saleh Alamri</title>
+      <link>/authors/saleh-alamri/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
       
-      <guid>/authors/admin/</guid>
+      <guid>/authors/saleh-alamri/</guid>
       <description></description>
     </item>
     

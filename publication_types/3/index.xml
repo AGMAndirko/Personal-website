@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Alejandro Andirkó</title>
+    <link>/publication_types/3/</link>
+    <description>Recent content in 3 on Alejandro Andirkó</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy2019</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Derived Homo sapiens cis-eQTL regulation: implications for brain evolution</title>
+      <link>/publications/gtex/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/publications/gtex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

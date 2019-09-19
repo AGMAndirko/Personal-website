@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy2019</copyright>
-    <lastBuildDate>Thu, 15 Mar 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Archaeology</title>
-      <link>/tags/archaeology/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/archaeology/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Bibliography</title>
@@ -27,15 +18,6 @@
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/bibliography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collaboration</title>
-      <link>/tags/collaboration/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/collaboration/</guid>
       <description></description>
     </item>
     
@@ -49,11 +31,38 @@
     </item>
     
     <item>
-      <title>Conference report</title>
-      <link>/tags/conference-report/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <title>EMBL</title>
+      <link>/tags/embl/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
       
-      <guid>/tags/conference-report/</guid>
+      <guid>/tags/embl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Poster</title>
+      <link>/tags/poster/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/poster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brain</title>
+      <link>/tags/brain/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/brain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>/tags/collaboration/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/collaboration/</guid>
       <description></description>
     </item>
     
@@ -72,24 +81,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/dopamine/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EMBL</title>
-      <link>/tags/embl/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/embl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ESHE</title>
-      <link>/tags/eshe/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/tags/eshe/</guid>
       <description></description>
     </item>
     
@@ -121,24 +112,6 @@
     </item>
     
     <item>
-      <title>Interdisciplinary</title>
-      <link>/tags/interdisciplinary/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/interdisciplinary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Poster</title>
-      <link>/tags/poster/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/poster/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Social cognition</title>
       <link>/tags/social-cognition/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
@@ -162,6 +135,60 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/williams-syndrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eQTL</title>
+      <link>/tags/eqtl/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/eqtl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archaeology</title>
+      <link>/tags/archaeology/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/archaeology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interdisciplinary</title>
+      <link>/tags/interdisciplinary/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/interdisciplinary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference report</title>
+      <link>/tags/conference-report/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/conference-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESHE</title>
+      <link>/tags/eshe/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/eshe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Evolution</title>
+      <link>/tags/human-evolution/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/human-evolution/</guid>
       <description></description>
     </item>
     

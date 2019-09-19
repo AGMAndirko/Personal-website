@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alejandro Andirkó on Alejandro Andirkó</title>
@@ -80,6 +79,15 @@
     </item>
     
     <item>
+      <title>Derived Homo sapiens cis-eQTL regulation: implications for brain evolution</title>
+      <link>/publications/gtex/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/publications/gtex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Oxytocin and Vasopressin Receptor variants as a window onto the evolution of human prosociality</title>
       <link>/publications/oxt/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
@@ -125,6 +133,66 @@
       
       <guid>/talk/evolang18/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>EMBL Reconstructing the human past</title>
+      <link>/posts/embl_report/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/posts/embl_report/</guid>
+      <description>&lt;p&gt;EMBL, one of the biggest biology research institutions in the world, has organized a symposium in paleogenomics, and of course the lineup is more than impressive: Svante Pääbo, David Reich, Beth Saphiro and countless of amazing experts were gathering in the impressive, DNA-themed EMBL building in Heidelberg. Sadly, part of the conference overlapped with the American Association of Physical Anthropologist meeting, the biggest gathering of experts having to do with Human Evolution [^1]. Still, the event managed to address a very wide range of topics, from Neanderthal genetics to pioneer methodologies in aDNA, but also leaving room to recent history studies, pathogens and domestication research.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;double_helix.jpeg&#34; alt=&#34;Thematic architecture&#34; /&gt;
+&lt;img src=&#34;public.jpeg&#34; alt=&#34;Public getting prepared&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Me and the rest of the &lt;a href=&#34;http://cbl.ub.edu/&#34; target=&#34;_blank&#34;&gt;Cognitive Biology of Language&lt;/a&gt; group arrived to Heidelberg the day before. We knew the EMBL building was not in the city but somewhere in the hills around, but we had no clue about where to pick the buses of at what time. Luckily for us, EBML had set up an app to work you through the city, including the full schedule of the conference, a list of attendants and speakers and other utilities. The app managed to be very useful during the next days, not only because I always struggle to keep the paper with the program close to me but because the bus schedule was in your hand at all times. Kudos for that!&lt;/p&gt;
+
+&lt;p&gt;The conference started with a keynote by Svante Pääbo, who gave an overview of his work in the field of paleogenomics (which is, on a large extent, also the history of the field itself). I had the luck of watching other talks by Pääbo before, and I knew already that the exciting content always arrives by the end, with the promise of functionally testing the neanderthal versions of several brain-related genes in brain organoids. The buzz around neanderthalized brain organoids has been going on for a while since &lt;a href=&#34;https://science.sciencemag.org/content/360/6395/1284&#34; target=&#34;_blank&#34;&gt;an article&lt;/a&gt; in the Science magazine news section claimed that the group led by A. Muotri is working on it; whenever it&amp;rsquo;s done is going to be a landmark for the understanding of Neanderthal cognition, and I&amp;rsquo;m sure Pääbo, who is not so far away from retirement, would love to put a final ribbon to his already highly influential career.&lt;/p&gt;
+
+&lt;p&gt;Another of the ways people are trying to figure out phenotypical effects of the Neanderthal genome is through introgressed sections in modern human populations. Joshua Akey&amp;rsquo;s talk, for example, addressed how they used the UK Biobank to link these alleles to phenotypes, finding interesting things such as a higher risk of depression, among other things [^2]. A new high-coverage Neanderthal genome from Chagyrskaya in preparation for publication might shed new light into potential windows for functional testing [^3]&lt;/p&gt;
+
+&lt;p&gt;On the technical side, there was also talk about much expected retrieval of aDNA from sediments, and other technical advances such as new statistical measures that eliminate the need for reference sequences, that can introduce biases into the mapping of DNA readings. Other talks addressed the need, nevertheless, of introducing more diverse african reference sequences to account for the continent&amp;rsquo;s diversity. In fact, Mattias Jakobson&amp;rsquo;s group is trying hard to get recent history aDNA sequences from Africa to account for migration dynamics inside the continent that could affect the kind of simulations that tell us about the emergence of &lt;em&gt;Homo Sapiens&lt;/em&gt; - including the date of emergence [^4]. The day finished with a nice sunset and a conference party.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;sunset.jpeg&#34; alt=&#34;Sunset&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The&lt;/p&gt;
+
+&lt;p&gt;Ke Wang
+Stonian shit
+Icelandinc shit
+R Nielsen Bajau
+Munch new dates
+Introgression PETR
+Aurochs
+Modern history then
+POSTERS1&lt;/p&gt;
+
+&lt;p&gt;DAY 3
+EMBL career training workshop
+Car dom
+Novembre
+Pontus
+Jakobson &amp;gt;300 deep african history bantu expansions etc
+Americas: Raghavan, Victor Mayar,
+POSTERS2&lt;/p&gt;
+
+&lt;p&gt;DAY 4
+Gut microbia
+Yersina Pestis
+Ludovico: horses (4 pops)
+Kaessman: gene expression in humans&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s going to happen again next year!&lt;/p&gt;
+
+&lt;p&gt;[^1] By the way, the AAPA had a couple of days ago a session called &amp;lsquo;Deciphering the Denisovans&amp;rsquo; that prompted a lot of activity on Twitter. The session was live-streamed through Facebook, but I assume they will release a recording in Youtube at some point. If you missed it, keep an eye open!&lt;/p&gt;
+
+&lt;p&gt;[^2] Check the Cell paper here&lt;/p&gt;
+
+&lt;p&gt;[^3] The full genome is even &lt;a href=&#34;https://www.eva.mpg.de/genetics/genome-projects/chagyrskaya-neandertal/home.html&#34; target=&#34;_blank&#34;&gt;publicly available&lt;/a&gt; already!&lt;/p&gt;
+
+&lt;p&gt;[^4] See Schlebusch&amp;rsquo;s paper from 2017 for an example &lt;a href=&#34;https://science.sciencemag.org/content/358/6363/652&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -223,13 +291,13 @@ $$&lt;/p&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  One
+   One
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-  &lt;strong&gt;Two&lt;/strong&gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-  Three
+   Three
 &lt;/span&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -260,7 +328,6 @@ $$&lt;/p&gt;
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;/aside&gt;
 
 &lt;hr /&gt;
