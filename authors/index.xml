@@ -7,24 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy2019</copyright>
-    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>admin</title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/admin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Adrianos Skaros</title>
       <link>/authors/adrianos-skaros/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>/authors/adrianos-skaros/</guid>
       <description></description>
@@ -33,9 +24,144 @@
     <item>
       <title>Alejandro Andirko</title>
       <link>/authors/alejandro-andirko/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>/authors/alejandro-andirko/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alessandro Vitriolo</title>
+      <link>/authors/alessandro-vitriolo/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/alessandro-vitriolo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alvaro Rada-Iglesias</title>
+      <link>/authors/alvaro-rada-iglesias/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/alvaro-rada-iglesias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cedric Boeckx</title>
+      <link>/authors/cedric-boeckx/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/cedric-boeckx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giuseppe Merla</title>
+      <link>/authors/giuseppe-merla/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/giuseppe-merla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giuseppe Testa</title>
+      <link>/authors/giuseppe-testa/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/giuseppe-testa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magdalena Laugsch</title>
+      <link>/authors/magdalena-laugsch/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/magdalena-laugsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marija Mihailovic</title>
+      <link>/authors/marija-mihailovic/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/marija-mihailovic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matteo Zanella</title>
+      <link>/authors/matteo-zanella/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/matteo-zanella/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Natascia Malerba</title>
+      <link>/authors/natascia-malerba/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/natascia-malerba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedro T Martins</title>
+      <link>/authors/pedro-t-martins/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/pedro-t-martins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pierre-Luc Germain</title>
+      <link>/authors/pierre-luc-germain/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/pierre-luc-germain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sebastiano Trattaro</title>
+      <link>/authors/sebastiano-trattaro/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/sebastiano-trattaro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stefanie Sturm</title>
+      <link>/authors/stefanie-sturm/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/stefanie-sturm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas O’Rourke</title>
+      <link>/authors/thomas-orourke/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/thomas-orourke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/admin/</guid>
       <description></description>
     </item>
     
@@ -49,33 +175,6 @@
     </item>
     
     <item>
-      <title>Alessandro Vitriolo</title>
-      <link>/authors/alessandro-vitriolo/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/alessandro-vitriolo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Alvaro Rada-Iglesias</title>
-      <link>/authors/alvaro-rada-iglesias/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/alvaro-rada-iglesias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cedric Boeckx</title>
-      <link>/authors/cedric-boeckx/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/cedric-boeckx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Constantina Theofanopoulou</title>
       <link>/authors/constantina-theofanopoulou/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
@@ -85,110 +184,11 @@
     </item>
     
     <item>
-      <title>Giuseppe Merla</title>
-      <link>/authors/giuseppe-merla/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/giuseppe-merla/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Giuseppe Testa</title>
-      <link>/authors/giuseppe-testa/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/giuseppe-testa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magdalena Laugsch</title>
-      <link>/authors/magdalena-laugsch/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/magdalena-laugsch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marija Mihailovic</title>
-      <link>/authors/marija-mihailovic/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/marija-mihailovic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matteo Zanella</title>
-      <link>/authors/matteo-zanella/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/matteo-zanella/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Natascia Malerba</title>
-      <link>/authors/natascia-malerba/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/natascia-malerba/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pedro T Martins</title>
-      <link>/authors/pedro-t-martins/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/pedro-t-martins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Pedro Tiago Martins</title>
       <link>/authors/pedro-tiago-martins/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/authors/pedro-tiago-martins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pierre-Luc Germain</title>
-      <link>/authors/pierre-luc-germain/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/pierre-luc-germain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sebastiano Trattaro</title>
-      <link>/authors/sebastiano-trattaro/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/sebastiano-trattaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stefanie Sturm</title>
-      <link>/authors/stefanie-sturm/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/stefanie-sturm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thomas O’Rourke</title>
-      <link>/authors/thomas-orourke/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/thomas-orourke/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy2019</copyright>
-    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Collaboration</title>
+      <link>/tags/collaboration/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/collaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetics</title>
+      <link>/tags/genetics/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/genetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IPSCs</title>
+      <link>/tags/ipscs/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/ipscs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Williams Syndrome</title>
+      <link>/tags/williams-syndrome/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/tags/williams-syndrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brain</title>
+      <link>/tags/brain/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/brain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eQTL</title>
+      <link>/tags/eqtl/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/tags/eqtl/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bibliography</title>
@@ -49,24 +103,6 @@
     </item>
     
     <item>
-      <title>Brain</title>
-      <link>/tags/brain/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/brain/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Collaboration</title>
-      <link>/tags/collaboration/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/collaboration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Domestication</title>
       <link>/tags/domestication/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
@@ -85,29 +121,11 @@
     </item>
     
     <item>
-      <title>Genetics</title>
-      <link>/tags/genetics/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/genetics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Glutamate</title>
       <link>/tags/glutamate/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/glutamate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IPSCs</title>
-      <link>/tags/ipscs/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/ipscs/</guid>
       <description></description>
     </item>
     
@@ -126,24 +144,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
       
       <guid>/tags/vocal-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Williams Syndrome</title>
-      <link>/tags/williams-syndrome/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/williams-syndrome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>eQTL</title>
-      <link>/tags/eqtl/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/tags/eqtl/</guid>
       <description></description>
     </item>
     
