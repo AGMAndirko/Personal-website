@@ -91,7 +91,7 @@ awk -v co<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</
 <span style="color:#f92672">}</span>
 </code></pre></div><ul>
 <li>Sed conversions from .csv to .tsv and viceversa: as simple as <code>sed 's/,/\t/g'</code> or <code>sed 's/\t/,/g'</code> but reduced to a much more comfortable <code>sed2t</code> or <code>sed2c</code>, for example.</li>
-<li>The aforementioned <code>sort file | uniq</code> operation</li>
+<li>An alias for the aforementioned <code>sort file | uniq</code> operation</li>
 <li>Extracting files regardless of extension (thousands of examples in the web for this one &ndash; I use <a href="https://gist.github.com/idev247/823464">this one</a>).</li>
 </ul>
 <p><strong>There&rsquo;s a caveat regarding reproducibility</strong>: Of course all these things are going to mess up with your code&rsquo;s reproducibility if you include these custom functions in something you want to publish.</p>
