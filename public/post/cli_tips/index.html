@@ -68,7 +68,7 @@
 <p>Here&rsquo;s an example of usage as shown in the command&rsquo;s <a href="https://github.com/codekitchen/pipeline">Github page</a>:
 <img src="https://raw.githubusercontent.com/codekitchen/pipeline/master/pipeline_demo.gif" alt="example" title="example"></p>
 <h2 id="custom-aliases-and-functions-for-basic-but-wordy-operations">Custom aliases and functions for basic (but wordy) operations</h2>
-<p>This is <strong>not new at all</strong> if you are into the command line, but I recently started applying it more thoroughly.</p>
+<p>This is <strong>not new at all</strong> for those of you who have a better command of shell, but I recently started applying it more thoroughly and I&rsquo;ve found it very useful.</p>
 <p>Over the time I&rsquo;ve found myself writing the same basic operations many times. In some cases it&rsquo;s things like <code>sort file | uniq</code> (the common operation of sorting a file and printing only non-duplicated lines). This kind of cases are not a big deal to write. However, I like to use a lot of <code>awk</code>, specially in combination with things like <code>sed</code>. And <code>awk</code> can be extremely wordy.</p>
 <p>Take a basic operation like printing the first column of a file:
 <code>awk '{print $1}' filename</code>
