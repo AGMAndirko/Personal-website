@@ -52,26 +52,29 @@
 <div id="content">
 <div class="container">
     <h1 id="data-exploration-and-manipulation-tips">Data exploration and manipulation tips</h1>
-<p>Programs like <code>grep</code>, <code>sed</code> and <code>awk</code> have been around for decades, and they sure survive the time test: some of these tools are <a href="https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html">significantly faster</a> than some of the fancy new data science tools out there (as long as your data is not weirdly formated, at least). Unix tools are a wonder.</p>
-<p>Here I&rsquo;m asumming you know a bit about these unix tools. If you don&rsquo;t, don&rsquo;t worry: there are a lot of tutorials out there that could help you. <a href="http://ptmartins.info/">Pedro Tiago Martins</a> and I wrote a course about terminal tools for total beginners. While we aren&rsquo;t exactly experts, if you have never touched a terminal I recommend you check it out.</p>
+<p>Programs like <code>grep</code>, <code>sed</code> and <code>awk</code> have been around for decades, and they sure have survived the test of time: some of these tools are <a href="https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html">significantly faster</a> than some of the fancy new data science programs out there (as long as your data is not weirdly formated, at least). It should be a surprise that anyone manipulating data still uses them, because unix tools are a wonder.</p>
 <p>I&rsquo;ve used programs like <code>sed</code> and <code>awk</code> more and more as my PhD progresses, but there&rsquo;s always room for improvement. <strong>Here are a couple methods I&rsquo;ve been experimenting with</strong> to make my data exploration and manipulation in the command line more efficient.</p>
+<p>Here I&rsquo;m asumming you know a bit about these unix tools. If you don&rsquo;t, don&rsquo;t worry: there are a lot of tutorials out there that could help you, and I&rsquo;m preparing an introduction for a future post reworking a beginners course that <a href="http://ptmartins.info/">Pedro Tiago Martins</a> designed a while ago.</p>
+<!---
+[Pedro Tiago Martins](http://ptmartins.info/) and I wrote a course about terminal tools for total beginners. While we aren't exactly experts, if you have never touched a terminal I recommend you check it out.
+--->
 <h2 id="ctrl-x--ctrl-e-command-editing"><code>Ctrl x + Ctrl e</code> command editing</h2>
-<p>I used <code>Sublime Text</code> for a long time. While I still think it&rsquo;s a great program and sometimes still resort to it, I&rsquo;ve been trying to learn some <code>VIM</code>, in part because I&rsquo;m a nerd, but also because there&rsquo;s inherent value to it in terms of time-saving when you master it.</p>
+<p>I used <code>Sublime Text</code> for a long time. While I still think it&rsquo;s a great program and sometimes still resort to it, I&rsquo;ve been trying to learn some <code>VIM</code>, in part because I&rsquo;m a nerd, but also because there&rsquo;s inherent value to it in terms of productivity and efficiency when you master it.</p>
 <p>Here&rsquo;s a useful tip a learned recently: if you type <code>Ctrl x + Ctrl e</code> while in the command line you can edit whatever command you are writting at the moment. That&rsquo;s a big deal sometimes when you have a typo in the middle of a very long pipeline in any editor, but with <code>VIM</code> &rsquo;s capacity to move around text in two keystrokes it becomes an impressive time saver.</p>
 <img src="gifs/typo.gif" width="680" height="453"/>
 <h2 id="using-the-pipeline-command">Using the &lsquo;pipeline&rsquo; command</h2>
-<p>If you are anything like me, you probable write your pipelines in your console only to find the latest error, and rewrite the pipeline until the desired output is printed. That&rsquo;s a lot of <code>enter</code> and going back.</p>
-<p>I recently found out about <a href="https://github.com/codekitchen/pipeline">pipeline</a>, a util that prints a live, <code>less</code>-like output of your pipeline as you write. My only problem with this is that the approach is not compatible with the <code>cntl x + cntl e</code> approach to writing pipes I mentioned above.</p>
+<p>If you are anything like me, you probable write your pipelines in your console only to find the latest error, and edit the faulty commands until the desired output is printed. That&rsquo;s a lot of going back to previous commands and <code>enter</code>.</p>
+<p>I recently found out about <a href="https://github.com/codekitchen/pipeline">pipeline</a>, a utility that prints a live, <code>less</code>-like output of your pipeline as you write. My only problem with this is that the approach is not compatible with the <code>cntl x + cntl e</code> approach to writing pipes I mentioned above.</p>
 <p>Here&rsquo;s an example of usage as shown in the command&rsquo;s <a href="https://github.com/codekitchen/pipeline">Github page</a>:
 <img src="https://raw.githubusercontent.com/codekitchen/pipeline/master/pipeline_demo.gif" alt="example" title="example"></p>
 <h2 id="custom-aliases-and-functions-for-basic-but-wordy-operations">Custom aliases and functions for basic (but wordy) operations</h2>
-<p>This is <strong>not new at all</strong> if you are into the command line, but I recently started applying it more thoroughly.</p>
+<p>This is <strong>not new at all</strong> for those of you who have a better command of shell, but I recently started applying it more thoroughly and I&rsquo;ve found it very useful.</p>
 <p>Over the time I&rsquo;ve found myself writing the same basic operations many times. In some cases it&rsquo;s things like <code>sort file | uniq</code> (the common operation of sorting a file and printing only non-duplicated lines). This kind of cases are not a big deal to write. However, I like to use a lot of <code>awk</code>, specially in combination with things like <code>sed</code>. And <code>awk</code> can be extremely wordy.</p>
 <p>Take a basic operation like printing the first column of a file:
-<code>awk '{print $1}' file </code>
-Those opening curly brackets and apostrophes are my bane &ndash; I used to find myself constantly forgetting any of those.Of course, this is a bit of a silly example, but you can make it as complex as you need (and <code>awk</code> <em>does</em> have a way to be more complicated).
-However, it&rsquo;s often the case that I want to check a particular column to, for example, see how many elements are duplicated, and I used to run into this small nuisance often.</p>
-<p>A solution I&rsquo;ve found is to create a custom function for cases like that stored in my <code>.local/bin/</code> folder as a script with a <code>#!/usr/bin/env bash</code> shebang. Storing it there assures that you can call the function anywhere in the system. Another option, for the shorter commands or functions, is to keep it like an alias in your <code>.bashrc</code> file (for example, <code>alias killall='jobs -p | xargs kill'</code> to kill, well, all the running jobs.</p>
+<code>awk '{print $1}' filename</code>
+Those opening curly brackets and apostrophes are my bane &ndash; I used to find myself constantly forgetting any of those. Of course, this is a bit of a silly example, but you can make it as complex as you need (and <code>awk</code> <em>does</em> have a way to be more complicated). However, it&rsquo;s often the case that I find myself wanting to check a particular column to, for example, see how many elements are duplicated, and I used to run into this small nuisance often.</p>
+<p>The solution is to create a custom function for cases like this stored in you <code>.local/bin/</code> folder as a script with a <code>#!/usr/bin/env bash</code> shebang (many shebangs work, but this one ensures cross-compatibility apparently).</p>
+<p>Storing it there assures that you can call the function anywhere in the system. Another option, for the shorter commands or functions, is to keep it like an alias in your <code>.bashrc</code> file (for example, I use <code>alias killall='jobs -p | xargs kill'</code> to, well, kill all the running jobs).</p>
 <p>So, for the previous case, a custom function for the <code>awk</code> single column problem is as simple as keeping there a file called <code>awkcol</code>, for example (from <code>awk+column</code>) that looks like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e">#!/usr/bin/env bash
 </span><span style="color:#75715e"></span>
@@ -81,7 +84,7 @@ awk -v co<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</
 <img src="gifs/awkcol.gif" width="680" height="453"/>
 <p>Personally I do is the following: the terminal keeps a <code>history</code> of everything, so from time to time I check it to see if there&rsquo;s anything I could be making easier. Things I&rsquo;ve slowly integrated into my workflow are:</p>
 <ul>
-<li>Git add/commit/push workflows.</li>
+<li>Git add/commit/push workflows:</li>
 </ul>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">function</span> fullgit<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
     git add .
