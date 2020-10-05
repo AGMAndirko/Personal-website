@@ -52,9 +52,9 @@
 <div id="content">
 <div class="container">
     <h1 id="data-exploration-and-manipulation-tips">Data exploration and manipulation tips</h1>
-<p>Programs like <code>grep</code>, <code>sed</code> and <code>awk</code> have been around for decades, and they sure have survived the test of time: some of these tools are <a href="https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html">significantly faster</a> than some of the fancy new data science programs out there (as long as your data is not weirdly formated, at least). It should be a surprise that anyone manipulating data still uses them, because unix tools are a wonder.</p>
+<p>Programs like <code>grep</code>, <code>sed</code> and <code>awk</code> have been around for decades, and they sure have survived the test of time: some of these tools are  <a href="https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html" target="_blank">significantly faster</a> than some of the fancy new data science programs out there (as long as your data is not weirdly formated, at least). It should be a surprise that anyone manipulating data still uses them, because unix tools are a wonder.</p>
 <p>I&rsquo;ve used programs like <code>sed</code> and <code>awk</code> more and more as my PhD progresses, but there&rsquo;s always room for improvement. <strong>Here are a couple methods I&rsquo;ve been experimenting with</strong> to make my data exploration and manipulation in the command line more efficient.</p>
-<p>Here I&rsquo;m asumming you know a bit about these unix tools. If you don&rsquo;t, don&rsquo;t worry: there are a lot of tutorials out there that could help you, and I&rsquo;m preparing an introduction for a future post reworking a beginners course that <a href="http://ptmartins.info/">Pedro Tiago Martins</a> designed a while ago.</p>
+<p>Here I&rsquo;m asumming you know a bit about these unix tools. If you don&rsquo;t, don&rsquo;t worry: there are a lot of tutorials out there that could help you, and I&rsquo;m preparing an introduction for a future post reworking a beginners course that  <a href="http://ptmartins.info/" target="_blank">Pedro Tiago Martins</a> designed a while ago.</p>
 <!---
 [Pedro Tiago Martins](http://ptmartins.info/) and I wrote a course about terminal tools for total beginners. While we aren't exactly experts, if you have never touched a terminal I recommend you check it out.
 --->
@@ -64,8 +64,8 @@
 <img src="gifs/typo.gif" width="680" height="453"/>
 <h2 id="using-the-pipeline-command">Using the &lsquo;pipeline&rsquo; command</h2>
 <p>If you are anything like me, you probable write your pipelines in your console only to find the latest error, and edit the faulty commands until the desired output is printed. That&rsquo;s a lot of going back to previous commands and <code>enter</code>.</p>
-<p>I recently found out about <a href="https://github.com/codekitchen/pipeline">pipeline</a>, a utility that prints a live, <code>less</code>-like output of your pipeline as you write. My only problem with this is that the approach is not compatible with the <code>cntl x + cntl e</code> approach to writing pipes I mentioned above.</p>
-<p>Here&rsquo;s an example of usage as shown in the command&rsquo;s <a href="https://github.com/codekitchen/pipeline">Github page</a>:
+<p>I recently found out about  <a href="https://github.com/codekitchen/pipeline" target="_blank">pipeline</a>, a utility that prints a live, <code>less</code>-like output of your pipeline as you write. My only problem with this is that the approach is not compatible with the <code>cntl x + cntl e</code> approach to writing pipes I mentioned above.</p>
+<p>Here&rsquo;s an example of usage as shown in the command&rsquo;s  <a href="https://github.com/codekitchen/pipeline" target="_blank">Github page</a>:
 <img src="https://raw.githubusercontent.com/codekitchen/pipeline/master/pipeline_demo.gif" alt="example" title="example"></p>
 <h2 id="custom-aliases-and-functions-for-basic-but-wordy-operations">Custom aliases and functions for basic (but wordy) operations</h2>
 <p>This is <strong>not new at all</strong> for those of you who have a better command of shell, but I recently started applying it more thoroughly and I&rsquo;ve found it very useful.</p>
@@ -95,10 +95,10 @@ awk -v co<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</
 </code></pre></div><ul>
 <li>Sed conversions from .csv to .tsv and viceversa: as simple as <code>sed 's/,/\t/g'</code> or <code>sed 's/\t/,/g'</code> but reduced to a much more comfortable <code>sed2t</code> or <code>sed2c</code>, for example.</li>
 <li>An alias for the aforementioned <code>sort file | uniq</code> operation</li>
-<li>Extracting files regardless of extension (thousands of examples in the web for this one &ndash; I use <a href="https://gist.github.com/idev247/823464">this one</a>).</li>
+<li>Extracting files regardless of extension (thousands of examples in the web for this one &ndash; I use  <a href="https://gist.github.com/idev247/823464" target="_blank">this one</a>).</li>
 </ul>
 <p><strong>There&rsquo;s a caveat regarding reproducibility</strong>: Of course all these things are going to mess up with your code&rsquo;s reproducibility if you include these custom functions in something you want to publish.</p>
-<p><strong>Extra note:</strong> I picked this tip up from the <a href="https://www.datascienceatthecommandline.com/1e/index.html">Data Science at the command line</a> book &ndash; I found it a really nice resource and it has inspired a good part of this post. Do check it out.</p>
+<p><strong>Extra note:</strong> I picked this tip up from the  <a href="https://www.datascienceatthecommandline.com/1e/index.html" target="_blank">Data Science at the command line</a> book &ndash; I found it a really nice resource and it has inspired a good part of this post. Do check it out.</p>
 <!---
 There's a problem, for example, at which `awk` excels, that has accumulated tons of stack overflow questions because of the sometimes counterintuitive nature of awk scripting. Imagine you have `file1` and `file2`, and you want to see if a column it's shared  between the two, and then add a third column to the output, like this:
 
@@ -115,9 +115,9 @@ tes tes test
 --->
 <h2 id="other-resources-you-might-be-interested-in-some-of-which-i-havent-explored-yet">Other resources you might be interested in (some of which I haven&rsquo;t explored yet)</h2>
 <ul>
-<li>The great looking <a href="https://github.com/Factual/drake">drake</a> tool, designed for multi-stepped processes where you have to, for example, download something heavy. <code>Drake</code> ensures you only have to do this once if you haven&rsquo;t changed any datapoint upstream. Discussed at lenght at the <a href="https://www.datascienceatthecommandline.com/1e/index.html">Data Science at the command line</a> book.</li>
-<li>I&rsquo;ve heard great things of <a href="https://github.com/tmux/tmux/wiki">tmux</a>, but I don&rsquo;t know if I&rsquo;d use it as much, as I use <code>Konsole</code> and so far the tab functionality covers my needs.</li>
-<li><a href="https://terminalsare.sexy/#terminals-are-sexy">Here&rsquo;s</a> a nice compilation of all things terminal. I&rsquo;m currently trying out the <a href="https://github.com/rupa/z">z</a> command listed there to minimize my <code>cd</code>&lsquo;ing around.</li>
+<li>The great looking  <a href="https://github.com/Factual/drake" target="_blank">drake</a> tool, designed for multi-stepped processes where you have to, for example, download something heavy. <code>Drake</code> ensures you only have to do this once if you haven&rsquo;t changed any datapoint upstream. Discussed at lenght at the  <a href="https://www.datascienceatthecommandline.com/1e/index.html" target="_blank">Data Science at the command line</a> book.</li>
+<li>I&rsquo;ve heard great things of  <a href="https://github.com/tmux/tmux/wiki" target="_blank">tmux</a>, but I don&rsquo;t know if I&rsquo;d use it as much, as I use <code>Konsole</code> and so far the tab functionality covers my needs.</li>
+<li> <a href="https://terminalsare.sexy/#terminals-are-sexy" target="_blank">Here&amp;rsquo;s</a> a nice compilation of all things terminal. I&rsquo;m currently trying out the  <a href="https://github.com/rupa/z" target="_blank">z</a> command listed there to minimize my <code>cd</code>&lsquo;ing around.</li>
 </ul>
 <hr>
 <p>I hope some of these were useful to you! Got suggestions, found an error or want to comment on something? Please drop me a mail at <a href="mailto:munoz.andirko@ub.edu">munoz.andirko@ub.edu</a></p>
