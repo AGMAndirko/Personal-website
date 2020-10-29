@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>An intro to the CLi</title>
+    <base href="https://andirko.eu">
+    <meta name="description" content="">
+    <meta name="author" content=''>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://andirko.eu/favicon.svg">
+    
+	
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row p-0">
+        <a class="navbar-brand mr-sm-auto" href="https://andirko.eu">Alejandro M. Andirkó</a>
+        <div class="navbar-nav flex-row">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/about">About</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/cv.pdf">CV</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/posts">Posts</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/contact">Contact</a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h1 id="an-introduction-to-the-command-line-interface">An introduction to the Command-Line interface</h1>
+<p>Too afraid to stare into the black abyss of your computer&rsquo;s <strong>terminal</strong>? Do you want to learn to use it but have no clue where to start or why should you care about tools written decades ago? Don&rsquo;t worry, we&rsquo;ve got you covered with all that serious stuff.</p>
+<p>This is a <strong>beginners</strong> course into the Command-Line Interface  <a href="http://ptmartins.info/" target="_blank">Pedro Tiago Martins</a> and I wrote originally for internal use in our group. It&rsquo;s intended to be completed over the course of a couple afternoons and <strong>assumes no previous knowledge</strong> of coding or experience with Unix systems.
+In this course we cover:</p>
+<ol>
+<li>Why you using the terminal is useful</li>
+<li>Basic system file manipulation</li>
+<li>Some of the most common programs you can use to manipulate data, including <code>grep</code>, <code>sed</code> or <code>awk</code></li>
+</ol>
+<p>While we don&rsquo;t think this course is by any means exhaustive, it should at least give you a footing into the world of the terminal. The idea is that by the end of this course you should be able to start experimenting with the more complex functions of these programs.</p>
+<p>Through the documment you&rsquo;ll see sometimes <strong>exercises</strong>, as this course was intended as a hands-on learning session. While you could just read the whole thing, we recommend to keep a terminal window open to follow the exercises. We also encourage you to integrate these programs in your day-to-day workflow, as that&rsquo;s the best way to learn to use them efficiently. The best way to learn is to do! Take a moment to consider how to use the information presented here.</p>
+<p><strong>Disclaimer:</strong> mind that this guide might contain oversimplifications for the sake of learnability. For example, ou will find certain terms being used (sometimes) interchangeably such as <strong>terminal</strong>, <strong>bash, command line, console</strong>, or <strong>shell.</strong> Technically, these all mean different things, but for our current purposes they can indeed be used interchangeably for the most part. Once you start feeling more comfortable with the tools we list here we encourage you to check the definitions.</p>
+<p>Now to the serious stuff:</p>
+<h1 id="first-of-all-what-is-the-terminal-exactly">First of all, what is the terminal exactly?</h1>
+<p>The terminal is <strong>a text-based interface to your computer</strong>, the same way a graphical interface is. Some things are better accomplished (or only possible) through the terminal. Some things would be really tedious in a graphical user interface. Many programs, especially science and data related, are terminal-based (i.e. there is no other way to use them) &ndash; this makes knowning at least the basics of using a terminal a very useful skill to have. The terminal is also <strong>much faster than interacting with your computer in other ways</strong>.</p>
+<p>Here are some examples of terminal programs (but of course there are many more!)</p>
+<ul>
+<li><code>Bedtools</code> - a program to manipulate .bed files. BED files are one of the standard storage formate for many genomic features. You can read more about them  <a href="https://genome.ucsc.edu/FAQ/FAQformat.html" target="_blank">here</a>.</li>
+<li><code>pandoc</code> - converting document files between formats. You can read about it  <a href="https://pandoc.org" target="_blank">here</a>.</li>
+<li><code>ffmpeg</code> - converting audio or video files between formats (among other things) .You can read about it  <a href="https://www.ffmpeg.org" target="_blank">here</a>.</li>
+<li><code>youtube-dl</code> - downloading videos from youtube and other platforms. You can read about it  <a href="https://ytdl-org.github.io/youtube-dl/index.html" target="_blank">here</a>.</li>
+<li><code>git</code>  - In very rough terms, a version control tool - this deserves its own post.</li>
+<li><code>circos</code>, to create, well, Circos plots like  <a href="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FMichael_Newton7%2Fpublication%2F278046588%2Ffigure%2Ffig3%2FAS%3A667839312703488%401536236708020%2FCircos-plot-of-genomic-variation-in-MM-Tracks-are-as-follows-The-outer-ring-represents.png&amp;sp=1602237548Tbe0ca2fcc2978a7a38b48882010683c11fbf3e4a98a05f3db4d2a87aed283e2b" target="_blank">this one</a>.</li>
+</ul>
+<h1 id="still-not-convinced-that-you-should-learn-to-use-it">Still not convinced that you should learn to use it?</h1>
+<p>Learning to use Unix shell tools and the basics of coding on the terminal has <strong>two inherent advantages</strong> that are shared with learning to code in any programming language:</p>
+<ul>
+<li><strong>Automation through scripting</strong>. A script is a <strong>set of instructions</strong>. Instead of doing something manually, you can tell the computer: when I tell you, you will do this, and that, and that other thing. This might involve things that are impossible to do otherwise. Here&rsquo;s an example:</li>
+</ul>
+<blockquote>
+<ul>
+<li>Check these 75890 files</li>
+<li>Delete only those that have “test” in the name.</li>
+<li>Do a search on Pubmed for these terms</li>
+<li>Generate a table with the papers that have it</li>
+<li>Download these automatically</li>
+<li>Perform a search for these other terms, and make another list with them.</li>
+</ul>
+</blockquote>
+<p><strong>You can do this in a couple of seconds</strong>. Just imagine the sheer tedium of doing any of these tasks in your regular graphical interface.</p>
+<ul>
+<li><strong>Reproducibility</strong>. It’s important that all steps of any task we do as scientists (towards a publication) are reproducible. In practice, that means <strong>keeping scripts that perform the data manipulations and analyses we do</strong>. If we worked towards automating tasks, the work is virtually done. The extra few steps involve cleaning it up, making it understandable, and if possible make it versatile enough to be used with someone else’s data. On top of that, most of the programs you can use in a Unix terminal are present in other systems by default, meaning sometimes to reproduce something in a different system you only have to move there the relevant data and scripts and run them.</li>
+</ul>
+<p>Very often, when you google how to do something (regardless of tool or whatever), you get a solution that involves the terminal, sometimes without even mentioning it. You will start not only recognizing what the solution is about in this cases, but also apply it. For example, one time Pedro was helping editing a book in <code>LaTeX</code>, and he asked one of the people involved how to do something. The email he got in reply to this was the following, no more, no less:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sed -i s/.*<span style="color:#ae81ff">\\</span>emph.*// main.adx
+</code></pre></div><p>That is a <strong>one liner</strong> - a very short program that solves a specific problem. We&rsquo;ll speak about this specific program (<code>sed</code>) later on.</p>
+<h1 id="enough-talk">Enough talk</h1>
+<p>Let&rsquo;s get to the real work!</p>
+<iframe src="https://giphy.com/embed/LmNwrBhejkK9EFP504" width="680" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/memecandy-LmNwrBhejkK9EFP504"></a></p>
+<h3 id="opening-the-terminal">Opening the terminal</h3>
+<p>The terminal is a program like any other. Look for it where you have other programs in your computer, and you’ll find it. In most Linux distributions there is also a default shortcut that opens it: <code>ctrl + alt + t</code>.</p>
+<p>You will be greeted with a prompt, waiting for commands to be typed in. Depending on your system, you will see something like the name of your computer, username and your current location in the file structure of your computer. Typically, your initial location is your home folder, which is the same as your username. It is in this folder that other, familiar folders are located in your computer (Desktop, Downloads, etc.). Indeed, you are always “somewhere” in your computer where you’re in the terminal.</p>
+<h3 id="your-first-basic-commands">Your first basic commands</h3>
+<p><strong>A command can do something on its own, or have arguments</strong> (which can be optional or mandatory).</p>
+<p>An example of a command that has no arguments, that is, it’s just one term on its own, is <code>pwd</code>, which stands for “<code>p</code>rint <code>w</code>orking <code>d</code>irectory”. Here, as in most computing tasks, printing means “show on the screen”, and working directory is the directory you are currently in.</p>
+<p><strong>Type in <code>pwd</code></strong> and press <code>Enter</code>. The result of this command will show up in the line below (in this case, <code>pwd</code> prints your current working directory). Another command is <code>ls</code> (short for ‘list’), which lists all the files in the directory you’re in. Type in <code>ls</code> and press <code>Enter</code>, and you will see all the folders and files listed below.</p>
+<p>Here you will already see a change compared to your graphical interface (the way you usually navigate your computer). You will see that if a folder has many, many files, your computer might become slower or even crash while trying to display and navigate through them all. This does not happen in the terminal.</p>
+<p><strong>Now let’s look at commands that require you to give them something to work with.</strong></p>
+<p>One such command is <code>cd</code>, for ‘change directory’. As you might have guessed, this command allows you to go to a different directory from your current one. In other words, that’s how you go from one folder to another. For example, try moving to one of your folders, like the Downloads one if you have one.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd Downloads
+</code></pre></div><p>This will make you go to your Downloads folder. If you just type <code>cd</code>, nothing will happen. You have to give it the directory you want to move into as an argument of the command (that is, <code>cd Downloads</code>). If you type in <code>pwd</code> now, you will see you are directory has indeed changed. Perhaps now it’s something like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"> ~/Downloads
+</code></pre></div><p><code>~</code> refers to your home folder. So this means: You’re inside the <code>Downloads</code> folder, which is in your home folder. <code>~</code> is shorthand for whatever your home folder is because this might change (for example, you might change your username, which changes your home folder). <code>cd ~/Downloads</code> will therefore work regardless of this.</p>
+<p>If you’re in <code>Downloads</code> and you want to go back one level you can type:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ..
+</code></pre></div><p>Which means going back (or up) one level.</p>
+<p><code>mkdir</code> (short for ‘<code>m</code>a<code>k</code>e <code>dir</code>ectory’) creates a directory (or folder). This command also takes in an argument, which is the name of the folder you want to create. Let’s try it. Type in:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">mkdir something
+</code></pre></div><p>And now you will have a folder called <code>something</code> in your working directory.</p>
+<blockquote>
+<p><strong>Practice:</strong> You might as get in that folder, and then go back. How would you do that?</p>
+</blockquote>
+<p>By the way, this is a good time to tell you that you can get “auto-complete” if you press the <code>tab</code> key. If you type <code>cd some</code> and then <code>tab</code>, you will see it completes to <code>something</code>, the folder you just created. This is works for commands, folders and files.</p>
+<p><code>mv</code> moves a file. Similar to <code>cd</code> or <code>mkdir</code> in that, to use it, you only have to write <code>mv</code> followed by the file you want to move, but including as well the destination. For example, imagine you created a file called <code>list.txt</code> and you want to move it to the <code>something</code> folder you created before. That&rsquo;d be:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">mv list.txt something/
+</code></pre></div><p>You might have noticed that the folder is distinguished from a file by <code>/</code> at the end of the name.</p>
+<blockquote>
+<p><strong>Exercise:</strong> To discover a new use of <code>mv</code> try to do <code>mv</code> on a file, but instead of ending the second argument (the folder’s name) on <code>/</code> , write something without it (as in <code>mv lists.txt folder</code>). What happened?</p>
+</blockquote>
+<p>Let’s say you get into the <code>something</code> file and you want to delete your <code>list.txt</code>. To remove it, do:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">rm list.txt
+</code></pre></div><p>Mind that in the terminal there is no confirmation prompt for this action, and files aren&rsquo;t moved to the trash - they just disappear, meaning you have to be extra careful of what you delete in there.</p>
+<p>What if you want to remove a folder, like the one you created before, <code>something/</code>? Try it in your terminal. You sould see something like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">rm: cannot remove <span style="color:#e6db74">&#39;something&#39;</span>: Is a directory
+</code></pre></div><p>The solution in cases like this is browsing the manual, perhaps the most usefool tool to learn to use any program in the terminal. Typing <code>man</code> and the name of the package you want to learn about opens the manual for that tool, including all the optional arguments of that tool.</p>
+<blockquote>
+<p><strong>Exercise:</strong> Enter <code>man rm</code> and browse the manual until you find the argument you have to provide to remove whole folders, and whatever is in them &ndash; a recursive removal. The structure is <code>rm </code>-<em>letter</em><code> folder</code>.</p>
+</blockquote>
+<p>So, to recapitulate:</p>
+<ul>
+<li><code>pwd</code> Prints the current (Working) Directory</li>
+<li><code>ls</code> lists the files of a folder</li>
+<li><code>cd</code>, accompanied of an argument, moves you to the specified folder</li>
+<li><code>mkdir</code> plus an argument creates a folder with that name</li>
+<li><code>rm</code> removes the file you specify as an argument</li>
+<li><code>man</code> plus the name of a tool opens the manual of the tool. You should use it when you don&rsquo;t understand how a command works</li>
+</ul>
+<h1 id="some-easy-commands-to-begin-exploring-data">Some easy commands to begin exploring data</h1>
+<p>Now we are going to check various ways of opening and manipulate files.</p>
+<p><code>less</code> is the kind of utility you need to peek at very big files that can’t be processed normally. <code>less</code> produces a look of a screen a time, requiring almost no processing power to show you part of a file. It’s a great tool for all those +1gb files that you might have.</p>
+<blockquote>
+<p><strong>Exercise:</strong> Create or get a text file of any kind and put it in the folder you happen to be in right now (Or navigate your way to the file if you want to practice that!). Let’s imagine that file is called <code>myfile.txt</code>. Do:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">less myfile.txt
+</code></pre></div><p>You will see however many lines fill up your screen, and you scroll down or press <code>Enter</code> to navigate your file.</p>
+<p><code>wc</code> shows line, word and character count. You can specify one of these counts only with arguments, such as <code>wc -l</code>, which gives you only the line count. Try it in your <code>myfile.txt</code> file!</p>
+<p><code>head</code> shows the first 10 lines of a file. With an option <code>-n</code>, you can define how many lines you want to see. Let’s say you have a file called <code>file.txt</code> with 10 lines: <code>one</code>, <code>two</code>, <code>three</code> and so on. Doing:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">head -n <span style="color:#ae81ff">5</span> file.txt
+    one
+    two
+    three
+    four
+    five
+</code></pre></div><p>The command <code>tail</code> does the same, but with the last lines of a file, saving you some endless scrolling down.</p>
+<p>Now imagine what you want is to compare two files for differences. <code>diff</code> does exactly that. To illustrate how it works, imagine you have two text files, <code>file1.txt</code> and <code>file2.txt</code>.</p>
+<p><code>file1.txt</code> contains:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    one
+    two
+    three
+    four
+</code></pre></div><p><code>file2.txt</code> contains:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    one
+    three
+    five
+    seven
+</code></pre></div><p>If you do :</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    diff file1.txt file2.txt
+</code></pre></div><p>you will get the differences between the two. There are different ways of outputting the result of this comparison. Option <code>-u</code>, for example, is a useful one. Doing:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">diff -u file1.txt file2.txt
+</code></pre></div><p>will give you:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">     one
+    -two
+     three
+    -four
+    +five
+    +seven
+</code></pre></div><p>Where lines with no symbol in front of them are in both files, lines with <code>-</code> are only in <code>file1.txt</code>, and lines with <code>+</code> are only in <code>file2.txt</code>.</p>
+<blockquote>
+<p><strong>Exercise:</strong> maybe you&rsquo;d like to learn other output formatting options. Why don&rsquo;t you check what the <code>-y</code> option does, for example?</p>
+</blockquote>
+<p><code>comm</code> also compares two files, but in a different way. It pays attention to the actual line (that is, not just what’s on the line, but which line is it), and gives you a column with the lines unique to <code>file1.txt</code>, lines unique to <code>file2.txt</code>, and lines common to both.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">comm file1.txt file2.txt
+</code></pre></div><p>will give you:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">                    one
+            three
+            five
+            seven
+    two
+    three
+    four
+</code></pre></div><p>Recapitulating:</p>
+<ul>
+<li><code>less</code> is a program that&rsquo;s really helpful to open a very big plain text file</li>
+<li><code>head</code> and <code>tail</code> give you the beginning and end of a file</li>
+<li><code>comm</code> and <code>diff</code> are some of the programs you can use to compare files in different ways</li>
+</ul>
+<blockquote>
+<p><strong>Exercise:</strong> delete the first line of <code>file2.txt</code> using only <code>tail</code> and arguments. Feel free to google the solution, or use only <code>man</code> for an extra challenge.</p>
+</blockquote>
+<p>There are many other programs that you could be using, but first we want to tell you a couple things that might ease your learning curve:</p>
+<h2 id="general-notes-about-the-terminal-enviroment">General notes about the terminal enviroment</h2>
+<ul>
+<li>Pressing <code>↑</code> (and <code>↓</code> will allow you to go through the last commands you typed. This can be very useful if you make a typo or you want to modify slightly a command you gave to the terminal.</li>
+</ul>
+<blockquote>
+<p><strong>Exercise:</strong> since you have already typed out some commands you can try this now in your terminal!</p>
+</blockquote>
+<ul>
+<li>As we told you before, if you press <code>Tab</code>  the names of files or programs are filled. This saves enormous amounts of time and effort, specially for that file called <code>paper_version7_final_but_not_quite_yet.version2.withgenes.out.pdf</code> or whatever other silly name. If you have a folder with several files with similar names, as it will happen often, <code>Tab</code> will only complete until the first diverging character (<code>paper_version</code>, for example, if you have a <code>paper_version6</code>etc somewhere in the same folder. Try tapping <code>Tab</code>twice to see all the files named <code>paper_version</code>+whatever.</li>
+<li>Mind that <strong>copy-pasting</strong> behavior in terminals changes depending on the operative system: in some Linux distributions, for example, the usual shortcut for copying (<code>Ctrl + c</code>) is changed to <code>Ctrl + Shift + c</code>.</li>
+<li>You don’t have to list all files that you are applying a utility to. You can use wildcarding with *, as in <code>mv paper_version* afolder/</code>, that would move all files called <code>paper_version</code> plus whatever to  <code>afolder/</code>.</li>
+</ul>
+<blockquote>
+<p><strong>Exercise:</strong> remember when we gave you an example of an script early on? try creating some files with <code>test</code> in the name and others without it and deleting only the ones with <code>test</code> in their names from the terminal.<br>
+<strong>Question:</strong> what would <code>sort *.txt</code> do? Try it out, checking the <code>man</code>ual page of <code>sort</code> before if you prefer.</p>
+</blockquote>
+<ul>
+<li>Avoid whitespaces in names of files and folders. Whitespaces are usually handled by terminals, but they are likely to give you problems in the long term if you want to bulk-process files, so in general it’s good practice to not use them just in case. Underscores <code>_</code>  are a good substitute.</li>
+<li>You can stop works at any point with <code>Ctrl + z</code>. Mind that the program will continue running in the background, with the consequent drop in performance if you tried to process something heavy enough. <code>ctrl + c</code> will usually abort the running process.</li>
+<li>To absolutely kill a process after trowing it to the background, try <code>jobs</code>, see what number the process you want to kill has, and then use <code>kill %number</code> (as in <code>kill %3</code>). If you’d rather bring a process to the foreground, use <code>fg %number</code>.</li>
+<li>If you need a full account of all the commands you have pressed (to, for example, trace back your steps and see where you messed up something) type <code>history</code>.</li>
+</ul>
+<h3 id="redirecting-output">Redirecting output</h3>
+<p>So far all these commands have produced output that is printed, if done correctly, in your terminal. But what if you want to have a file with the results of a command?</p>
+<p>That&rsquo;s what the output redirection in for. You can redirect the printed output of any command with <code>&gt;</code>. For example,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">comm file1.txt file2.txt &gt; result.txt
+</code></pre></div><p>will generate a new file called <code>result.txt</code> with the results we showed you above.
+You also have the option of providing input for a command with <code>&lt;</code> and appending the output of a command to a file with <code>&gt;&gt;</code>.</p>
+<blockquote>
+<p><strong>Exercise:</strong> Try appending the result of <code>diff</code> to the same <code>result.txt</code> file now.</p>
+</blockquote>
+<blockquote>
+<p><strong>Exercise:</strong> Imagine you have know how many files and folders are there in your desktop. How would you do it with two of the commands we have show you already?</p>
+</blockquote>
+<h3 id="pipes">Pipes</h3>
+<p>Most of these utilities produce mutually intelligible outputs. That means you can concatenate their outputs, multiplying their efficiency, using <code>|</code>. This is one of the most useful features of the Unix shell.</p>
+<blockquote>
+<p><strong>Exercise:</strong> Try to understand what the following pipelines do. Use <code>man</code> if necessary:</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"> sort *.txt | uniq -c | sort -nr &gt; all.txt
+</code></pre></div><p>If you know any programming language, think about how would you do the same task and compare it to this code.</p>
+<p>Recapitulating:</p>
+<ul>
+<li>Pipes are useful to concatenate operations</li>
+<li>You can redirect comman outputs to files</li>
+<li>Remember to use <code>tab</code> and <code>↑</code>/<code>↓</code> to your advantage</li>
+</ul>
+<h1 id="a-step-up-grep-sed-awk-and-using-regex">A step up: grep, sed, awk and using regex</h1>
+<p>So far we have been 3</p>
+<h2 id="regex">Regex</h2>
+<p>Regex stands for <strong>regular expression</strong> (as in an expression that describes a regular language in the Chomsky hierarchy sense, which is a piece of information that might help you or confuse you further). Using regex allows to capture <em>patterns</em> of characters instead of literal strings. Regex are very pervasive and you might cross them in some programming languages, such as Python.</p>
+<p>Arguably, writing regex is not the most intuitive task out there, but with some practice one gets the hang of it (like <code>^.\d*$</code>, which, of course, would capture all lines starting (<code>^</code>) with any one character <code>.</code> followed by any number <code>*</code> of <code>\d</code>igits (so, <code>\d*</code>), followed by a line end  <code>$</code>. Luckily for you, you only have to know a handful of these expressions for regular work, and there’s a number of  <a href="https://www.rexegg.com/regex-quickstart.html" target="_blank">cheatsheets</a> out there to help you. The rigidity of Regex, however, is great for all sorts of problems. Let’s imagine you have the following file, called <code>patterns.txt</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    <span style="color:#ae81ff">1</span>
+    <span style="color:#ae81ff">123</span>
+    <span style="color:#ae81ff">123</span> <span style="color:#ae81ff">123</span>
+    a
+    abc
+    abc <span style="color:#ae81ff">123</span>
+    a123
+</code></pre></div><blockquote>
+<p><strong>Question:</strong> Which of these lines would be captured by the regex we used as an example (<code>^.\d*$</code>)?</p>
+</blockquote>
+<p>Let’s go over it again:</p>
+<ul>
+<li><code>^</code> means start of the line</li>
+<li><code>.</code> means any one character</li>
+<li><code>\d</code> means digit</li>
+<li><code>*</code> is a quantifier which means any number of characters (including 0) of the kind just defined (in this case, digits)</li>
+<li><code>$</code> means end of line</li>
+</ul>
+<p>Let’s see what would be captured:</p>
+<ul>
+<li><code>1</code> is captured. It starts the line, we have a character (<code>1</code>), we then have 0 digits, and then the line ends.</li>
+<li><code>123</code> is captured. It starts the line, then we have a character (<code>1</code>), we then have 2 digits (<code>23</code>), and then the line ends.</li>
+<li><code>123 123</code> is <strong>not</strong> captured. It starts the line, we then have a character (<code>1</code>), also some digits (<code>23</code>), but then we have a space. A space is not a digit. This one is out.</li>
+<li><code>a</code> is captured. It starts the line, we have a character (<code>a</code>), we then have 0 digits, and then the line ends.</li>
+<li><code>abc</code> is <strong>not</strong> captured. It starts the line, we then have a character (<code>a</code>), but it’s not followed by a number of digits. If we consider that the number of digits is 0, we would then expect the line to end, but we have some letters instead (<code>bc</code>).</li>
+<li><code>a123</code> is captured. It starts the line, we then have a character (<code>a</code>), followed by 3 digits (<code>123</code>), and then the line ends.</li>
+</ul>
+<p>We can check this quickly on our file by using one of the most powerful Unix tools out there: <code>grep</code>. <code>grep</code> allows regex input, such as <code>^.\d*$</code>, and can be used to capture all lines in our <code>patterns.txt</code> file matching these.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">grep <span style="color:#e6db74">&#39;^.\d*$&#39;</span> patterns.txt
+</code></pre></div><p>The result should be:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#ae81ff">1</span>
+<span style="color:#ae81ff">123</span>
+a
+a123
+</code></pre></div><h2 id="grep">Grep</h2>
+<p>As we have introduced just before, <code>grep</code> is a great terminal utility used for finding strings in a file. Imagine having to perform a search through a series of <code>.csv</code> documents for a specific string, let’s say <code>FOXP2</code>. You could do something like <code>grep FOXP2 *.csv</code>. One of the beauties of <code>grep</code> is that it can also search by regular expressions, among many other options that make it an extremely useful tool.</p>
+<p>Let’s check, for example, one of the most handy options: <code>grep -f</code>, or <code>fgrep</code>. <code>fgrep</code> takes as input a plain text documents and performs <code>grep</code> on the second argument files through each one of the input file lines.
+Imagine the following document with four gene names, called <code>input</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    FOXP2
+    FOXP1
+    AMIGO
+    EDAR
+</code></pre></div><p>A line like <code>fgrep input *.txt &gt; output</code> will produce a new file, called output, that is the result of all the instances where grep has found any of these terms in any of the working directory’s <code>.txt</code> files.</p>
+<blockquote>
+<p><strong>Exercise:</strong> check your <code>history</code> for all the times you have used <code>rm</code> (or some other terminal program).</p>
+</blockquote>
+<h2 id="sed">Sed</h2>
+<p>Sed filters and processes text. Sed can, for example, substitute (<code>s/</code>) any given matched string by whatever you want in a large quantity of files without a sweat, and it’s its more common usage. Sed has many options, but regularly <code>/</code> delimits the fields and options. Sed has several flags, such as <code>/g</code> (global), which point at how many replacements should <code>sed</code> do (in this case, all possible).</p>
+<blockquote>
+<p><strong>Question</strong>: what does <code>sed 's/freqeunt/frequent/g' *.txt</code> do?</p>
+</blockquote>
+<blockquote>
+<p><strong>Exercise:</strong> think about an instance where <code>sed</code> would have saved you time in a task!</p>
+</blockquote>
+<blockquote>
+<p><strong>Exercise:</strong> Sed also accepts regex. How would you transform a comma sepparated <code>.csv</code> into a tab separated <code>.tsv</code>?</p>
+</blockquote>
+<h2 id="awk">Awk</h2>
+<p>Awk is, well, awkfully ugly to write, but also a very powerful tool. Awk is specialized on retrieving columns. Imagine you had a file like this and you wanted to get every item in column <code>chrom</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e">#Snp chrom position feature</span>
+rs1892 <span style="color:#ae81ff">12</span> <span style="color:#ae81ff">1233455</span> Something
+rs1980802 <span style="color:#ae81ff">12</span> <span style="color:#ae81ff">1233470</span> Somethingelse
+rs1123213 <span style="color:#ae81ff">20</span> <span style="color:#ae81ff">2333455</span> Nothing
+</code></pre></div><p>Essentially, awk works this way: <code>awk '(conditions, if any){any order}' inputfile</code>. So, if you wanted to get columns two and three out of the example file provided above, you could like it this way:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">awk <span style="color:#e6db74">&#39;{print $2, $3}&#39;</span> examplefile
+</code></pre></div><p>Note several things: what you want to do is enclosed in <code>'</code>, and then subcommands can be enclosed in <code>{round brackets}</code>. Awk is its own beast and we can&rsquo;t cover it in extent, but you should know it is so useful that there&rsquo;s a flavour of it specifically for genetics data,  <a href="https://bioinformaticsworkbook.org/Appendix/Unix/bioawk-basics.html" target="_blank">bioawk</a>. As long as you data is more or less tidy, awk is still something worth learning.</p>
+<blockquote>
+<p><strong>Question</strong>: how would you get column 1 without using awk, using tools that have been already explained here? Tip: you are allowed to check regex cheatsheets.</p>
+</blockquote>
+<h1 id="installing-new-programs">Installing new programs</h1>
+<p><code>sudo</code> is the basic command to assume the root or superuser role, meaning it gives you permission to do things that require certain privileges. It is implemented so that not anyone can do certain actions in a computer that might be harmful for it if you are not the administrator.
+When something requires this role, you will be asked for you password. Type it in and press Enter (note: you will not see the password or asterisks show up in your screen).</p>
+<h1 id="the-end">The end</h1>
+<p>Congrats! Here&rsquo;s your prize:  <a href="https://github.com/mtoyoda/sl" target="_blank">an ASCII train</a></p>
+<figure>
+    <img src="pics/serious.png" width="680" height="453" style="vertical-align:middle">
+</figure>
+<p>If you know your basics of shell, maybe you&rsquo;d enjoy my other post on  <a href="https://andirko.eu/post/cli_tips/" target="_blank">tools and good practices in bash I&amp;rsquo;v\e been experimenting with lately</a></p>
+<hr>
+<p>We hope this course was useful for you! Did you find an error, an annoying typo or want to provide feedback? Please drop me a mail at <a href="mailto:munoz.andirko@ub.edu">munoz.andirko@ub.edu</a></p>
+
+</div>
+
+        </div>
+    <div id="footer">
+        <hr>
+        <div class="container text-center mb-2">
+            <a href="https://andirko.eu"><small>Last updated: 2/10/2020 </small></a>
+        </div>
+    </div>
+
+</body>
+</html>
