@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Modern brains and bones:</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Alejandro G. Muñoz Andirkó" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/moded-rutgers.css" rel="stylesheet" />
+    <link href="libs/remark-css/rutgers-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Modern brains and bones:
+## Genomic analysis of derived <em>Homo sapiens</em> traits
+### Alejandro G. Muñoz Andirkó
+### Cognitive Science and Language PhD. program
+### 26-07-2021
+
+---
+
+
+
+
+class: rutgers, inverse, center, middle
+
+# Chapter 1
+### Human evolution in light of paleogenomics
+
+---
+
+# The paradox of *sapiens* uniqueness
+
+.pull-left[
+### More and more **similarities** between Neanderthals and us
+- Several admixture events with both Neanderthals and Denisovans
+
+- Similar levels of cultural complexity:
+  - Lithics
+  - Pigment use
+  - Cave art
+  - Body ornamentation
+]
+
+.pull-right[
+![an image](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-021-82257-6/MediaObjects/41598_2021_82257_Fig5_HTML.jpg?as=webp)
+.center[(Nubian Levallois technology associated with Neanderthals, Blinkhorn  et al. 2021)]
+]
+
+???
+
+As a push against Great Leap Forward
+
+---
+#The paradox of *sapiens* uniqueness
+
+.pull-left[
+![gif](https://media.nature.com/lw800/magazine-assets/d41586-019-02210-6/d41586-019-02210-6_16974446.gif) (Credit: Phillip Gunz, CC BY-NC-ND 4.0)
+]
+
+.pull-right[
+### ... Yet there are important **differences**
+
+- Anatomical differences in endocasts: diverging parietal, cerebellar and (possibly) subcortical morphology
+
+- The existence of deserts of introgression that resisted admixture
+
+- Regions under positive selection]
+
+
+---
+class: center
+
+# How do we reconcile these two views?
+
+### Integrating paleogenomic data with large-scale -omics databases that take advantage of **current variation** in modern populations
+
+--
+
+### Using clinical data from **pathologies** known to be caused by **targeted, restricted** genetic disruption, and affecting phenotypes that have changed over human evolution
+
+--
+
+### ... all while taking into account that this data can't be really understood without a **temporal dimension** of variation 
+
+???
+
+Each one of these approaches corresponds to a chapter 
+
+---
+
+class: rutgers, inverse, center, middle
+
+# Chapter 2
+### Effects of high-frequency *Homo sapiens*-specific variants in brain gene expression
+
+---
+
+# Questions
+- Often, too much emphasis is put on **missense** variants, but is there a role for **regulation** in human evolution, as predicted?
+
+- Can we infer **which tissues and genomic regions** are particularly affected by  *Homo sapiens*-specific variation in gene expression?
+
+--
+
+# How can we adress these questions?
+
+- GTEx single-tissue expression quantitative trait loci (**eQTLs**) across **15 brain structures**.
+
+- Filtered through **Kuhlwilm &amp; Boeckx (2019)**, an exhaustive catalog of variants differentiating modern humans from Neanderthals and Denisovans.
+
+- Regions identified as under **positive selection** in two independent studies.
+
+---
+# Results summary
+
+## Permutation tests
+High-frequency eQTLs are **overrepresented** in genomic regions under positive selection.
+ 
+![](https://andirko.eu/pics/perms.png)
+
+---
+
+# Results summary
+## Tissue-specificity
+- In terms of eQTL variance across tissues, the **pituitary** and **cerebellum** accumulate more eQTLs than expected by chance (against control sets).
+
+- Controls: non-derived &amp; non high-frequency eQTLs.
+
+## Others
+- No directional skewness.
+
+- Overrepresentation of specific functional categories in high frequency derived eQTLs relative to control: **NMD**, **5’-UTR**,  **non coding transcript** variants.
+
+
+
+---
+
+class: rutgers, inverse, center, middle
+# Chapter 3
+### BAZ1B, Williams-Beuren syndrome and the evolution of the human face
+
+---
+# Williams-Beuren syndrome
+- **Neurocristopathy** caused by the deletion of an specific region in chromosome 7.
+
+- Typically results in a characteristic **craniofacial morphology** reminiscent of *Homo sapiens*-derived traits: eg., retraction of the lower and mid face.
+  
+- **Sociocognitive changes** as well: exaggerated social tendencies, increased trust and friendliness, reduced reactive aggression, relatively intact language.
+
+--
+
+- All of this has led to parallels between Williams-Beuren and the "domestication syndrome", and a potential way to test the **"self-domestication" hypothesis** [1].
+
+- Along with **Giuseppe Testa's lab**, we set to provide the first experimental validation of the hypothesis through the effects of **BAZ1B**.
+
+.footnote[
+[1]: Though my current stance on the term and the hypothesis overall has changed, as stated in the introduction.]
+---
+
+# Cohort and experimental design
+ ![](https://andirko.eu/pics/baz1b_cohort.png)
+
+---
+# BAZ1B-bound genes
+
+ ![](https://andirko.eu/pics/baz1b.png)
+---
+class: center
+# Summary of results
+
+### The most stringent category of genes following BAZ1B dosage is tied to an **excess of regulatory changes** in *sapiens*.
+
+### Neanderthal/Denisovan enrichment in **inversely correlated** gene lists.
+
+### *Homo sapiens*-specific enrichment in regulatory variants **directly correlated** with BAZ1B.
+
+---
+class: inverse, center, middle
+
+# Chapter 4
+### Temporal mapping of *Homo sapiens* variants
+
+
+---
+class: center
+# Questions
+### Most human evolution studies disregard the temporal dimension of their results.
+
+### Simulation-based age estimates are usually dependent on unkown demographic parameters.
+
+### Can we derive a temporal dimension of variants in an evolutionary scale?
+
+---
+
+# Albers and McVean (2020)
+- Non-parametric method - theoretically agnostic to demography.
+
+- 45 million age variants estimated.
+
+- Hidden Markov model + pairwise coalescent-based TMRCA estimation, using recombination, mutation and joint-model clocks.
+
+# Downstream analysis
+- **ExPecto**: deep learning, variant-based *in silico* predictor of expression variation [1].
+
+.footnote[
+[1]: Through a convolutional neural network train on "cell-type-specific model for 2,002 genome-wide histone marks, TF-binding and chromatin accessibility profiles"
+]
+
+- **Time-sensitive GO** enrichment analysis.
+
+- **Case example**: *BAZ1B*
+
+---
+
+# Summary of results
+
+## Including control
+
+![](https://andirko.eu/pics/fig1.png)
+
+---
+class: center
+# Summary of results 
+
+## Expecto: 
+We found genes related to cerebellar Purkinje neurons (0-60k), glutamate system (300-500k), dopamine system (500-800k)
+
+##GO enrichment: 
+Bone categories found only in 0-300k, consistent with our vision of the archaeological record.
+
+## *BAZ1B*: 
+At the same time, older variation in variants potentially affecting the regulatory network of *BAZ1B* than expected initially.
+
+---
+# Conclusion
+
+### Each of these three studies **complement each other** in perspective, and ask similar questions at heart - that is, trying to determine what really differentiates *Homo sapiens* from Neanderthals and Denisovans.
+
+--
+### While the answers in this thesis are partial, they aim at all points to derive information from open data while **doing justice to the increasing complexity of our species' history**.
+--
+
+### An **interdisciplinary view** of human evolution is key to derive conclusions from all dimensions of the paleogenetic data.
+
+---
+
+class: center, middle
+
+# Thank you!
+
+---
+class: inverse, center, middle, remark
+
+# Extra slides
+---
+
+# Q&amp;A: The "domestication syndrome"
+
+.pull-left[
+## Promises
+- Comparative genomics across different species models
+
+- A localized, testable hypothesis, centered on neural crest cells
+
+- An expansion of the term of "domestication" as a biological process, rather than a cultural practice
+]
+--
+.pull-right[
+## and practical problems
+- Not consistent across species (except for reduced reactive aggression)
+
+- Unknown relationship with other components of domestication (eg., glutamatergic system)
+
+- Pleiotropy and the overall general role of neural crest cells in early development
+
+]
+
+---
+# Q&amp;A: Divisions in temporal mapping project
+
+![](https://andirko.eu/pics/division_clap.png)
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
