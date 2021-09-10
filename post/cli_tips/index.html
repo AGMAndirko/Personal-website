@@ -74,7 +74,7 @@ Those opening curly brackets and apostrophes are my bane &ndash; I used to find 
 <p>The solution is to create a custom function for cases like this stored in you <code>.local/bin/</code> folder as a script with a <code>#!/usr/bin/env bash</code> shebang (many shebangs work, but this one ensures cross-compatibility apparently).</p>
 <p>Storing it there assures that you can call the function anywhere in the system. Another option, for the shorter commands or functions, is to keep it like an alias in your <code>.bashrc</code> file (for example, I use <code>alias killall='jobs -p | xargs kill'</code> to, well, kill all the running jobs).</p>
 <p>So, for the previous case, a custom function for the <code>awk</code> single column problem is as simple as keeping there a file called <code>awkcol</code>, for example (from <code>awk+column</code>) that looks like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e">#!/usr/bin/env bash
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e">#!/usr/bin/env bash
 </span><span style="color:#75715e"></span>
 COLN<span style="color:#f92672">=</span>$1
 awk -v co<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$COLN<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#39;{print $co}&#39;</span> <span style="color:#e6db74">&#34;</span>$2<span style="color:#e6db74">&#34;</span>
@@ -84,7 +84,7 @@ awk -v co<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</
 <ul>
 <li>Git add/commit/push workflows:</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">function</span> fullgit<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">function</span> fullgit<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
     git add .
     git status
     git commit -a -m <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
@@ -118,7 +118,7 @@ tes tes test
 <li> <a href="https://terminalsare.sexy/#terminals-are-sexy" target="_blank">Here&amp;rsquo;s</a> a nice compilation of all things terminal. I&rsquo;m currently trying out the  <a href="https://github.com/rupa/z" target="_blank">z</a> command listed there to minimize my <code>cd</code>&lsquo;ing around.</li>
 </ul>
 <hr>
-<p>I hope some of these were useful to you! Got suggestions, found an error or want to comment on something? Please drop me a mail at <a href="mailto:munoz.andirko@ub.edu">munoz.andirko@ub.edu</a></p>
+<p>I hope some of these were useful to you! Got suggestions, found an error or want to comment on something? Please drop me a mail at  <a href="mailto:munoz.andirko@ub.edu">munoz.andirko@ub.edu</a></p>
 
 </div>
 
@@ -126,7 +126,7 @@ tes tes test
     <div id="footer">
         <hr>
         <div class="container text-center mb-2">
-            <a href="https://andirko.eu"><small>Last updated: 12/04/2021 </small></a>
+            <a href="https://andirko.eu"><small>Last updated: 08/09/2021 </small></a>
         </div>
     </div>
 
