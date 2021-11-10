@@ -32,6 +32,11 @@
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
+                    <a class="nav-item nav-link" href="/cv.pdf">Academic CV</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
                     <a class="nav-item nav-link" href="/cv.pdf">CV</a>
                     
                         <span class="nav-item navbar-text mx-1">/</span>
@@ -57,16 +62,16 @@
 <p>This is a <strong>beginners</strong> course  <a href="http://ptmartins.info/" target="_blank">Pedro Tiago Martins</a> and I wrote it originally for internal use in  <a href="http://cbl.ub.edu/" target="_blank">our research group</a>. It&rsquo;s intended to be completed over the course of a couple afternoons and <strong>assumes no previous knowledge</strong> of coding or experience with Unix systems.
 In this course we&rsquo;ll cover:</p>
 <ol>
-<li>Why you using the terminal is useful</li>
+<li>Why you should think that using the terminal is useful</li>
 <li>Basic system file manipulation</li>
 <li>Some of the most common programs you can use to manipulate data, including <code>grep</code>, <code>sed</code> or <code>awk</code></li>
 </ol>
 <p>While we don&rsquo;t think this course is by any means exhaustive, it should at least give you a footing into the world of the terminal. The idea is that by the end of this course you should be able to start experimenting with the more complex functions of these programs.</p>
-<p>Through the documment you&rsquo;ll see sometimes <strong>exercises</strong>, as this course was intended as a hands-on learning session. While you could just read the whole thing, we recommend to keep a terminal window open to follow the exercises. We also encourage you to integrate these programs in your day-to-day workflow, as that&rsquo;s the best way to learn to use them efficiently. The best way to learn is to do! Take a moment to consider how to use the information presented here.</p>
+<p>Through the documment you&rsquo;ll see sometimes <strong>exercises</strong>, as this course was intended as a hands-on learning session. While you could just read the whole thing, we recommend to keep a terminal window open to follow the exercises. We also encourage you to integrate these programs in your day-to-day workflow, as that&rsquo;s the best way to learn to use them efficiently. <strong>The best way to learn is to do!</strong> Take a moment to consider how to use the information presented here.</p>
 <p><strong>Disclaimer:</strong> mind that this guide might contain oversimplifications for the sake of learnability. For example, ou will find certain terms being used (sometimes) interchangeably such as <strong>terminal</strong>, <strong>bash, command line, console</strong>, or <strong>shell.</strong> Technically, these all mean different things, but for our current purposes they can indeed be used interchangeably for the most part. Once you start feeling more comfortable with the tools we list here we encourage you to check the definitions.</p>
 <h1 id="first-of-all-what-is-the-terminal-exactly">First of all, what is the terminal exactly?</h1>
 <p>The terminal is <strong>a text-based interface to your computer</strong>, the same way a graphical interface is. Some things are better accomplished (or only possible) through the terminal. Some things would be really tedious in a graphical user interface. The terminal can be, in general, a <strong>much faster than interacting with your computer in other ways</strong>.</p>
-<p>When I started by PhD I had migrated to Linux some time ago, but I never used the terminal too much. However, now it&rsquo;s an integral part of my work (in fact, I&rsquo;m writting this in a text editor in the terminal called <code>vim</code>!), and it has facilitated many tasks over the years. Additionally, I&rsquo;m able to keep a register of everything I do, and, for example, reuse old code to repeat otherwise cumbersome tasks now. Anyone can take advantage of the terminal, but knowing how to use it is a great skill to have for anyone who works professionally with data, code or text files.</p>
+<p>When I started by PhD I had already migrated to Linux some time ago, but I never used the terminal too much. Nowadays it&rsquo;s an integral part of my work (in fact, I&rsquo;m writting this in a text editor in the terminal called <code>vim</code>!), and it has facilitated many tasks over the years. Additionally, I&rsquo;m able to keep a register of everything I do, and, for example, reuse old code to repeat otherwise cumbersome tasks now. Anyone can take advantage of the terminal, but knowing how to use it is a great skill to have for anyone who works professionally with data, code or text files.</p>
 <p>Here are some examples of terminal programs (but of course there are many more!):</p>
 <ul>
 <li><code>pandoc</code> - converts document files between formats. You can read about it  <a href="https://pandoc.org" target="_blank">here</a>.</li>
@@ -86,14 +91,14 @@ In this course we&rsquo;ll cover:</p>
 <li>Check these 90 files</li>
 <li>Delete only those that have “test” in the name.</li>
 <li>Generate a table with the names of the files, alphabetically numbered.</li>
-<li>Add the number of lines of each document in the table.
-Of course, nothing forces you to do this in the terminal, but imagine the ammount of time it would take, and what would happen if, for example, a collaborator tells you that the files you are using are wrong and you have to do the task again. <strong>With a script you can do this in a couple of seconds, as many times as needed</strong>.</li>
+<li>Add the number of lines of each document in the table.</li>
 </ul>
 </blockquote>
+<p>Of course, nothing forces you to do this in the terminal, but imagine the ammount of time it would take, and what would happen if, for example, a collaborator tells you that the files you are using are wrong and you have to do the task again. <strong>With a script you can do this in a couple of seconds, as many times as needed</strong>.</p>
 <ul>
 <li><strong>Reproducibility</strong>. It’s important that all steps of any task we do as scientists (towards a publication) are reproducible. In practice, that means <strong>keeping scripts that perform the data manipulations and analyses we do</strong>. If we worked towards automating tasks, the work is virtually done. The extra few steps involve cleaning it up, making it understandable, and if possible make it versatile enough to be used with someone else’s data. On top of that, most of the programs you can use in a Unix terminal are present in other systems by default, meaning sometimes to reproduce something in a different system you only have to move there the relevant data and scripts and run them.</li>
 </ul>
-<p>Reproducibility is important also when are stuck with errors. If you share your code along with your problem, people will be able to reproduce the problem itself, and tell you where you need to fix it. Very often, when you google how to do something (regardless of tool), you get a solution that involves the terminal, sometimes without even mentioning it. You will start not only recognizing what the solution is about in this cases, but also apply it. For example, one time  <a href="http://ptmartins.info/" target="_blank">Pedro</a> was helping editing a book in <code>LaTeX</code>, and he asked one of the people involved how to do something. The email he got in reply to this was the following, no more, no less:</p>
+<p>Reproducibility is important also whenever you are stuck with errors. If you share your code along with your problem, people will be able to reproduce the problem itself, and tell you where you need to fix it. Very often, when you google how to do something (regardless of tool), you get a solution that involves the terminal, sometimes without even mentioning it. You will start not only recognizing what the solution is about in this cases, but also apply it. For example, one time  <a href="http://ptmartins.info/" target="_blank">Pedro</a> was helping editing a book in <code>LaTeX</code>, and he asked one of the people involved how to do something. The email he got in reply to this was the following, no more, no less:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sed -i s/.*<span style="color:#ae81ff">\\</span>emph.*// main.adx
 </code></pre></div><p>One could argue that this is too short an email reply, but being acquainted with the terminal was enough to use the solution. ”That is a <strong>one liner</strong> - a very short program that solves a specific problem. We&rsquo;ll speak about this specific program (<code>sed</code>) later on.</p>
 <h2 id="a-note-on-operating-systems">A note on operating systems</h2>
@@ -171,7 +176,7 @@ Another command is <code>ls</code> (short for ‘list’), which lists all the f
 <p><strong>Exercise:</strong> Create or get a text file of any kind and put it in the folder you happen to be in right now (Or navigate your way to the file if you want to practice that!). Let’s imagine that file is called <code>myfile.txt</code>. Do:</p>
 </blockquote>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">less myfile.txt
-</code></pre></div><p>You will see however many lines fill up your screen, and you scroll down or press <code>Enter</code> to navigate your file.</p>
+</code></pre></div><p>You will see however many lines fill up your screen, and you scroll down or press <code>Enter</code> to navigate your file. To exit less, press <code>:q</code>, short for <code>command</code>+<code>quit</code>. This will be your common way to exit terminal-based editors.</p>
 <p><code>wc</code> shows line, word and character count. You can specify one of these counts only with options, such as <code>wc -l</code>, which gives you only the line count.
 | Try it in your <code>myfile.txt</code> file!</p>
 <p><code>head</code> shows the first 10 lines of a file. With an option <code>-n</code>, you can define how many lines you want to see. Let’s say you have a file called <code>file.txt</code> with 10 lines: <code>one</code>, <code>two</code>, <code>three</code> and so on. Doing:</p>
@@ -283,7 +288,8 @@ You also have the option of providing input for a command with <code>&lt;</code>
 <p>So far we have seen various programs, but you&rsquo;ll notice some of the most useful programs aren&rsquo;t here. Here are three extremely powerful tools for text/data manipulation: <code>grep</code>, <code>sed</code>and <code>awk</code>. They all can profit from a formal string-searching language invented in the 50s called <code>regex</code>, so let&rsquo;s start with that.</p>
 <h2 id="regex">Regex</h2>
 <p>Regex stands for <strong>regular expression</strong> (as in an expression that describes a regular language in the Chomsky hierarchy sense, which is a piece of information that might help you or confuse you further). Using regex allows to capture <em>patterns</em> of characters instead of literal strings. Regex are very pervasive and you might cross them in some programming languages, such as Python.</p>
-<p>Arguably, writing regex is not the most intuitive task out there, but with some practice one gets the hang of it (like <code>^.\d*$</code>, which, of course, would capture all lines starting (<code>^</code>) with any one character <code>.</code> followed by any number <code>*</code> of <code>\d</code>igits (so, <code>\d*</code>), followed by a line end  <code>$</code>. Luckily for you, you only have to know a handful of these expressions for regular work, and there’s a number of  <a href="https://www.rexegg.com/regex-quickstart.html" target="_blank">cheatsheets</a> out there to help you. The rigidity of Regex, however, is great for all sorts of problems. Let’s imagine you have the following file, called <code>patterns.txt</code>:</p>
+<p>Arguably, writing regex is not the most intuitive task out there, but with some practice one gets the hang of it. Take, for example, <code>^.\d*$</code>, which, of course, would capture all lines starting (<code>^</code>) with any one character <code>.</code> followed by any number <code>*</code> of <code>\d</code>igits (so, <code>\d*</code>), followed by a line end  <code>$</code>.</p>
+<p>Luckily for you, you only have to know a handful of these expressions for regular work, and there’s a number of  <a href="https://www.rexegg.com/regex-quickstart.html" target="_blank">cheatsheets</a> out there to help you. The rigidity of Regex, however, is great for all sorts of problems. Let’s imagine you have the following file, called <code>patterns.txt</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">    <span style="color:#ae81ff">1</span>
     <span style="color:#ae81ff">123</span>
     <span style="color:#ae81ff">123</span> <span style="color:#ae81ff">123</span>
