@@ -5,8 +5,8 @@
 
     <title>Command-line tips</title>
     <base href="https://andirko.eu">
-    <meta name="description" content="">
-    <meta name="author" content=''>
+    <meta name="description" content="My personal website">
+    <meta name="author" content='Alex'>
 
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -42,7 +42,12 @@
                         <span class="nav-item navbar-text mx-1">/</span>
                     
                 
-                    <a class="nav-item nav-link" href="/contact">Contact</a>
+                    <a class="nav-item nav-link" href="/log">Log</a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/wiki">Wiki</a>
                     
                 
             
@@ -74,23 +79,23 @@ Those opening curly brackets and apostrophes are my bane &ndash; I used to find 
 <p>The solution is to create a custom function for cases like this stored in you <code>.local/bin/</code> folder as a script with a <code>#!/usr/bin/env bash</code> shebang (many shebangs work, but this one ensures cross-compatibility apparently).</p>
 <p>Storing it there assures that you can call the function anywhere in the system. Another option, for the shorter commands or functions, is to keep it like an alias in your <code>.bashrc</code> file (for example, I use <code>alias killall='jobs -p | xargs kill'</code> to, well, kill all the running jobs).</p>
 <p>So, for the previous case, a custom function for the <code>awk</code> single column problem is as simple as keeping there a file called <code>awkcol</code>, for example (from <code>awk+column</code>) that looks like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e">#!/usr/bin/env bash
-</span><span style="color:#75715e"></span>
-COLN<span style="color:#f92672">=</span>$1
-awk -v co<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$COLN<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#39;{print $co}&#39;</span> <span style="color:#e6db74">&#34;</span>$2<span style="color:#e6db74">&#34;</span>
-</code></pre></div><p>See it here in action:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>COLN<span style="color:#f92672">=</span>$1
+</span></span><span style="display:flex;"><span>awk -v co<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$COLN<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#39;{print $co}&#39;</span> <span style="color:#e6db74">&#34;</span>$2<span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>See it here in action:</p>
 <img src="gifs/awkcol.gif" width="680" height="453"/>
 <p>Personally I do is the following: the terminal keeps a <code>history</code> of everything, so from time to time I check it to see if there&rsquo;s anything I could be making easier. Things I&rsquo;ve slowly integrated into my workflow are:</p>
 <ul>
 <li>Git add/commit/push workflows:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">function</span> fullgit<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    git add .
-    git status
-    git commit -a -m <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
-    git push
-<span style="color:#f92672">}</span>
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> fullgit<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    git add .
+</span></span><span style="display:flex;"><span>    git status
+</span></span><span style="display:flex;"><span>    git commit -a -m <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>    git push
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><ul>
 <li>Sed conversions from .csv to .tsv and viceversa: as simple as <code>sed 's/,/\t/g'</code> or <code>sed 's/\t/,/g'</code> but reduced to a much more comfortable <code>sed2t</code> or <code>sed2c</code>, for example.</li>
 <li>An alias for the aforementioned <code>sort file | uniq</code> operation</li>
 <li>Extracting files regardless of extension (thousands of examples in the web for this one &ndash; I use  <a href="https://gist.github.com/idev247/823464" target="_blank">this one</a>).</li>
@@ -126,7 +131,7 @@ tes tes test
     <div id="footer">
         <hr>
         <div class="container text-center mb-2">
-            <a href="https://andirko.eu"><small>Last updated: 10/11/2021 </small></a>
+            <a href="https://andirko.eu"><small>Last updated: 11/01/2022 </small></a>
         </div>
     </div>
 

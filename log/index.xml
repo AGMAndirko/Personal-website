@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logs on Alejandro M. Andirkó</title>
+    <link>https://andirko.eu/log/</link>
+    <description>Recent content in Logs on Alejandro M. Andirkó</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 10 Jan 2022 16:38:37 +0100</lastBuildDate><atom:link href="https://andirko.eu/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Album listening log</title>
+      <link>https://andirko.eu/log/listening/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/listening/</guid>
+      <description>Album listening log  Hearing is a labor like reading Hearing is a labor like keeping still  The ideal goal is 365 albums at the end of the year. A more realistic figure given past years is between 100 and 200 ambums, when work allows. Depending on the circumstances I might take break periods where I listen to loose songs instead and try and catch up in other weeks.</description>
+    </item>
+    
+    <item>
+      <title>Bass exercises</title>
+      <link>https://andirko.eu/log/electric_bass/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/electric_bass/</guid>
+      <description>Bass I&amp;rsquo;m recording here the progress I do with bass playing.
+2022 Goals Improvisation
+ Better understanding and comfort with altered dominant tensions. 20 iterations, all keys.  8/20 it. ████_____ 40%
+Technical
+ Modal sequences 90 bpm  0/20 0 _________ 0%
+Repertoire
+ Fluid walking over the first section of Body and soul. 20 iterations, all keys  0/20 it.  _________ 0%
+Rhythm
+ Polymuting exercise 01. 120 bpm  0/120 0 _________ 0%</description>
+    </item>
+    
+    <item>
+      <title>Projects and meta</title>
+      <link>https://andirko.eu/log/general/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/general/</guid>
+      <description>Why log?
+ 2022 00F01 Climate change protest action.
+   00D01 General, ongoing populating the wiki. Started involving myself more in climate change activism.
+00C04 Started new job as a developer.
+00A00 Started seriously considering logging. Started website revamp. Considered several personal wiki/memex posibilities.</description>
+    </item>
+    
+    <item>
+      <title>Reading list</title>
+      <link>https://andirko.eu/log/reading/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/reading/</guid>
+      <description>Books I&amp;rsquo;ll list here my current reading list. I have to admit it&amp;rsquo;s not my priority activity these days, prefering music overall. I tend to read essays, not much fiction. I&amp;rsquo;m also in a strike of eco-related readings right now.
+I&amp;rsquo;m currently reading: Técnica y tecnología - Adrián Almazán  █______ ~10%
+Innate - Kevin Mitchell (long overdue)  ██______ ~20%
+I&amp;rsquo;ve read: 2022   00F12 Dune N: Reading this took ages.</description>
+    </item>
+    
+  </channel>
+</rss>

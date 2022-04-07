@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Alejandro M. Andirkó</title>
+    <link>https://andirko.eu/</link>
+    <description>Recent content in About on Alejandro M. Andirkó</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 10 Jan 2022 16:38:37 +0100</lastBuildDate><atom:link href="https://andirko.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Album listening log</title>
+      <link>https://andirko.eu/log/listening/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/listening/</guid>
+      <description>Album listening log  Hearing is a labor like reading Hearing is a labor like keeping still  The ideal goal is 365 albums at the end of the year. A more realistic figure given past years is between 100 and 200 ambums, when work allows. Depending on the circumstances I might take break periods where I listen to loose songs instead and try and catch up in other weeks.</description>
+    </item>
+    
+    <item>
+      <title>Bass exercises</title>
+      <link>https://andirko.eu/log/electric_bass/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/electric_bass/</guid>
+      <description>Bass I&amp;rsquo;m recording here the progress I do with bass playing.
+2022 Goals Improvisation
+ Better understanding and comfort with altered dominant tensions. 20 iterations, all keys.  8/20 it. ████_____ 40%
+Technical
+ Modal sequences 90 bpm  0/20 0 _________ 0%
+Repertoire
+ Fluid walking over the first section of Body and soul. 20 iterations, all keys  0/20 it.  _________ 0%
+Rhythm
+ Polymuting exercise 01. 120 bpm  0/120 0 _________ 0%</description>
+    </item>
+    
+    <item>
+      <title>Personal log</title>
+      <link>https://andirko.eu/post/log/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/post/log/</guid>
+      <description>A personal log After leaving academia I have been thinking about what to do about this website. I inititally started it as a way to display my CV and preprints, as well as a platform for courses and tech blogging.
+Now, I&amp;rsquo;m starting to shift this website from a professional display to a more personal place - a kind of digital garden with an open focus. This kind of self-reflective, non-performative note-taking is way more interesting to me than, say, Twitter.</description>
+    </item>
+    
+    <item>
+      <title>Projects and meta</title>
+      <link>https://andirko.eu/log/general/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/general/</guid>
+      <description>Why log?
+ 2022 00F01 Climate change protest action.
+   00D01 General, ongoing populating the wiki. Started involving myself more in climate change activism.
+00C04 Started new job as a developer.
+00A00 Started seriously considering logging. Started website revamp. Considered several personal wiki/memex posibilities.</description>
+    </item>
+    
+    <item>
+      <title>Reading list</title>
+      <link>https://andirko.eu/log/reading/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/log/reading/</guid>
+      <description>Books I&amp;rsquo;ll list here my current reading list. I have to admit it&amp;rsquo;s not my priority activity these days, prefering music overall. I tend to read essays, not much fiction. I&amp;rsquo;m also in a strike of eco-related readings right now.
+I&amp;rsquo;m currently reading: Técnica y tecnología - Adrián Almazán  █______ ~10%
+Innate - Kevin Mitchell (long overdue)  ██______ ~20%
+I&amp;rsquo;ve read: 2022   00F12 Dune N: Reading this took ages.</description>
+    </item>
+    
+    <item>
+      <title>How much did admixture depend on social cognition in the past?</title>
+      <link>https://andirko.eu/post/hybrid_social/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/hybrid_social/</guid>
+      <description>How much did admixture depend on social cognition in the human past? Here is a funny idea. Those of you that keep up with human evolution studies know that hybridization is a hot topic: as time passes by, we learn of more and more introgression events in the human deep past. Most people, even outside academic circles, are aware of the Neanderthal and Denisovan introgression. What seems to be the case is that the picture is way more complicated the more we know, including bidirectial admixture, potential unkown species admixture events between extinct human species, and overall a myriad of possibilities that we are discovering only now.</description>
+    </item>
+    
+    <item>
+      <title>Poster with no text</title>
+      <link>https://andirko.eu/post/poster_no_words/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/poster_no_words/</guid>
+      <description>I presented a poster with no text - here&amp;rsquo;s my experience At some point when I was learning the ropes of academic life I read on Twitter that scientific posters should have as little text as possible.
+For some context, I don&amp;rsquo;t really like posters, overall. I tend to see them as a lot of one-use-only sunk cost. I appreciate the format, but it takes a ridiculous ammount of preparation, compared, to, for example, a talk.</description>
+    </item>
+    
+    <item>
+      <title>An intro to the CLi</title>
+      <link>https://andirko.eu/post/introterm/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/introterm/</guid>
+      <description>An introduction to the Command-Line interface Too afraid to stare into the black abyss of your computer&amp;rsquo;s terminal? Do you want to learn to use it but have no clue where to start or why should you care about tools written decades ago? Don&amp;rsquo;t worry, we&amp;rsquo;ve got you covered with all that serious stuff.
+This is a beginners course Pedro Tiago Martins and I wrote it originally for internal use in our research group.</description>
+    </item>
+    
+    <item>
+      <title>Command-line tips</title>
+      <link>https://andirko.eu/post/cli_tips/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/cli_tips/</guid>
+      <description>Data exploration and manipulation tips Programs like grep, sed and awk have been around for decades, and they sure have survived the test of time: some of these tools are significantly faster than some of the fancy new data science programs out there (as long as your data is not weirdly formated, at least). It shouldn&amp;rsquo;t be a surprise that anyone manipulating data still uses them, because unix tools are a wonder.</description>
+    </item>
+    
+    <item>
+      <title>Why I like the term molecular archaeology</title>
+      <link>https://andirko.eu/post/mol_arch/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/mol_arch/</guid>
+      <description>&amp;ldquo;What do you do?&amp;rdquo;: A two word summary It used to be the hardest question to answer for me. The verbose answer is something like what I have in the About me section of my website:
+I study human cognition from a very interdisciplinary approach, including data from Genetics, Neurobiology, Comparative Cognition, Archaeology and early brain development. Me, trying to sound fancier than I am  It&amp;rsquo;s not a bad description, I guess.</description>
+    </item>
+    
+    <item>
+      <title>The myth of scientific excellence</title>
+      <link>https://andirko.eu/post/excellence/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/excellence/</guid>
+      <description>The myth of scientific excellence As a researcher in Spain, I face some very challenging odds if I want to be a researcher in this country. That&amp;rsquo;s a question of numbers, and the consequence of some terrible cumulative decisisions on science policy.
+Funnily enough, I often see this kind of statements in job adverts, governmental statementsand such where we are sold that X place searches &amp;ldquo;excellent&amp;rdquo; researchers, or is a hub of &amp;ldquo;excellence&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://andirko.eu/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/about/</guid>
+      <description>About Me  Hi!
+Welcome to my personal webpage. This is the space where I rant, accumulate notes on various topics that interest me and log the things I do. I also host a couple CVs, in case you came here for that. In general, this place is where I regain a sense of personal joy from the collection of walled gardens that is becoming internet.
+I&amp;rsquo;m currently a developer at Teralco, a middle-sized tech consultancy company in Elche, (Alicante, Spain).</description>
+    </item>
+    
+    <item>
+      <title>Academic Travel</title>
+      <link>https://andirko.eu/post/academic_travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/academic_travel/</guid>
+      <description>Academic travel and climate I&amp;rsquo;ve travelled on plane more times that I can count. Part of my family lives in Hungary, and I grew up in Spain, so I&amp;rsquo;ve taken countless back-and-forth trips to visit them, at least once a year and sometimes more. So when people told me that academics go to conferences, I didn&amp;rsquo;t see any problem. In fact it seems pretty cool - you have to present your work anyway, so why not do it somewhere nice, while meeting new people and places?</description>
+    </item>
+    
+    <item>
+      <title>Ads, or the design space</title>
+      <link>https://andirko.eu/wiki/ads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/ads/</guid>
+      <description>The design space under capitalism Consider the following: since we have cognitive biases that determine what tends to capture or attention, any system where that attention is something to compete for will eventually lead to exploiting those cognitive biases.
+That means the space of design under fierce competition (in an economy of attention such as the one fostered under capitalism) will always adopt certain harmful form under no regulation.
+That is: there is no form of advertising that is not exploitative.</description>
+    </item>
+    
+    <item>
+      <title>Barry Harris</title>
+      <link>https://andirko.eu/wiki/barry_harris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/barry_harris/</guid>
+      <description>Notes around Barry Harris Chromaticism forms a harmonic lattice.
+Major 6th chords For BH, Major 6 cords have an extra #5/b6 note (making playing it with all the tensions and chord note an octatonic scale with an in-built diminished 7th between the 2nd and 7th degree.
+So:
+ Maj7: R/1 9 3rd 11 5 #5!/b13 13 7 R Within: from the 9th to the 7th, there&amp;rsquo;s a diminished 7th chord a semitone down away</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>https://andirko.eu/wiki/bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/bookmarks/</guid>
+      <description>Bookmarks Since no tool I&amp;rsquo;ve used is really effective as a persistent place for my bookmarks, here&amp;rsquo;s my solution: just post them here. Just note that accumulation isn&amp;rsquo;t knowledge.
+(Linking doesn&amp;rsquo;t mean endorsment)
+Music Resources
+  Jazz guitar  Ethan Hein&amp;#39;s blog  Toned ear ear training  3d printed violin by HOVA Labs  Preenfm2 synth  Rhythmbot for sightreading/inspiration/work  Coding   Python morsels  R to Python equivalencies 1, 2, 3  Exercism  Devdocs.</description>
+    </item>
+    
+    <item>
+      <title>Complex black boxes</title>
+      <link>https://andirko.eu/wiki/complex_black_boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/complex_black_boxes/</guid>
+      <description>Most objects are black boxes The level of complexity of our houses and cities has an inverse relationship with the knowledge we have about the objects that populate it, for obvious reasons: for a citizen in a medium city to know how everhing they use works, they would have to spend much time absorbing specific knowledge. Of course, this is impractical.
+The problem is that this black box attitude has permeated culture in places where electronic devices are common.</description>
+    </item>
+    
+    <item>
+      <title>Constructed languages - conlangs</title>
+      <link>https://andirko.eu/wiki/conlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/conlang/</guid>
+      <description>Conlangs are constructed languages When I was about 18 I was fascinated by constructed languages. I&amp;rsquo;ve been fascinated lately by constructed languages. I lost all joy around linguistics in academic terms some time ago, but I recently found a wikipedia article I had read at some point and then forgotten over the years. The article was about ithkuil, an experimental language famous for being as informationally dense as possible.
+As I was thinking about this, I had an idea for a conlang project:</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://andirko.eu/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/contact/</guid>
+      <description> Feel free to drop me a mail: sanyi [DOT] personal [AT] Google&amp;rsquo;s main mail service
+ </description>
+    </item>
+    
+    <item>
+      <title>Dithering</title>
+      <link>https://andirko.eu/wiki/dithering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/dithering/</guid>
+      <description>Dithering Dithering is a form of image manipulation that, roughly, imposes a bandwidth filter to colors. In a certain sense, dithering is totally unnecessary, only interesting in the way one controls the noise introduced by the color filtering. However, it&amp;rsquo;s a whole aesthetic choice, regularly associated with the low-consumption internet/permacomputing movement.
+I enjoy the effect very much and use it profusely over this website.
+References: How to apply to a low tech website: https://homebrewserver.</description>
+    </item>
+    
+    <item>
+      <title>Ear training</title>
+      <link>https://andirko.eu/wiki/ear_training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/ear_training/</guid>
+      <description>Ear training You can&amp;rsquo;t produce what you can&amp;rsquo;t audiate, or listen in your mind. Ear training is essential to music training.
+There are, arguably, four ways to do ear training, in increasing difficulty:
+ Passively listening to music (probably age dependent). Practicing without an instrument (usually, websites and apps) Practicing with an instrument. Actively trying to conceptualize within a theoretical framework what&amp;rsquo;s happening in the music: transcribing.  Arguably, three and four are the most transferable approaches when one is a musician.</description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://andirko.eu/wiki/english/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/english/</guid>
+      <description>English English is the vehicular language of these notes. It&amp;rsquo;s not my native language, but I feel like it kind of is becoming one, because my first contacts (my first real contacts, at least) with the language came from a computer.
+So, why write this personal space in english?
+ It is de fact the lingua franca of internet But also: it has become a vehicle of expression and second nature (despite errors)  </description>
+    </item>
+    
+    <item>
+      <title>Habit glueing</title>
+      <link>https://andirko.eu/wiki/habit_glueing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/habit_glueing/</guid>
+      <description>Habit glueing New habits are hard to create. There are many ways to introduce a new habit: one of the most interesting ones is habit glueing, where you coopt the existence of an already formed habit and glue, or concatenate in succession, the new one.
+For example, one might choose to always play ten minutes of piano after cleaning teeth.
+Problems  Dependance on the strenght of the concatenated habit. The start of the glued habit must require a minimal effort inversion, so that structural bariers don&amp;rsquo;t interfere with habit building.</description>
+    </item>
+    
+    <item>
+      <title>Kolmogorov complexity</title>
+      <link>https://andirko.eu/wiki/kolmogorov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/kolmogorov/</guid>
+      <description>Kolmogorov complexity Kolmogorov complexity measures algorithmic complexity, and it&amp;rsquo;s defined by the shortest possible algorithm leading to a program. For example, it might measure the algorithm that is formed by a series of genes producing an organ or ar organism (as originally read in here.
+Backlinking </description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>https://andirko.eu/wiki/learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/learning/</guid>
+      <description>Learning Resource: https://szymonkaliski.com/notes/learning/
+Writing is processing At a certain point, reading doesn&amp;rsquo;t increase the consolidation of knowledge: writing does. There&amp;rsquo;s some research on the benefits of note-taking vs just listening in classes, for example. Note also that it seems physical writing is more beneficial than digital note-taking (similarly as in ear training and the benefits of music interpretation?).
+ This might be, in fact, a good point in favor for a physical zettelkasten vs a digital one, like this one (see meta), if it weren&amp;rsquo;t for the digital advantages of easier portability, backup capacities, text-processing and such.</description>
+    </item>
+    
+    <item>
+      <title>Liquid tuples</title>
+      <link>https://andirko.eu/wiki/liquid_tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/liquid_tuples/</guid>
+      <description>Liquid tuples Liquid tuples, or liquid grooves, is a way of writting rhythms created (as far as I know) by WTF grooves, a youtube/instagram channel.
+Roughly, it consist on experiments substracting or adding units from tuples, while keeping the lenght of the subunits of the tuples. One can have, for example:
+ A four note septuplet. A five note triplet. Nested modified tuplets ( here is a website for a midi implementation.</description>
+    </item>
+    
+    <item>
+      <title>Microrhythms</title>
+      <link>https://andirko.eu/wiki/microrhythm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/microrhythm/</guid>
+      <description>Microrhythms Note: This post is a quick self note about what I&amp;rsquo;ve learned from Malcom Braff&amp;rsquo;s lectures. Check the resources / youtube for the details of the theory.
+Western notation is terrible at notating microrhythm. Effectively, it doesn&amp;rsquo;t even have a way to notate small variations in time, or at least not a practical one. Western notation is focused on linear, 2-exponent representations of rhythm (tuples are rare to come by).</description>
+    </item>
+    
+    <item>
+      <title>Moral disonances</title>
+      <link>https://andirko.eu/wiki/moral_disonances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/moral_disonances/</guid>
+      <description>Moral dissonances applied to climate change, veganism and other causes Intellectual knowledge of moral facts doesn&amp;rsquo;t cause behavioural changes unless coupled with emotional engagement.
+For example: one might be convinced that giving up meat-eating is the most ethical posture and still not act out. What&amp;rsquo;s the root of this behaviour?
+My gut feeling is that the emotional reactions out of societal pressure are not counteracted by an emotional empathy towards the animals.</description>
+    </item>
+    
+    <item>
+      <title>Music interpretation</title>
+      <link>https://andirko.eu/wiki/benefits_music_interpretation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/benefits_music_interpretation/</guid>
+      <description>The benefits of interpretation  Most people exposed to music are able to audiate Playing (any) instrument means expanding your body to produce sound. However, what&amp;rsquo;s embodied in a physical instrument vs developing a musical software one is different (not necessarily better or worse). Interpretation of a given piece forces oneself to focus on how the body and mind produce sound. Improvisation can happen, because the feedback loop between audation and muscle memory is instantaneous.</description>
+    </item>
+    
+    <item>
+      <title>Palace of memory</title>
+      <link>https://andirko.eu/wiki/palace_of_memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/palace_of_memory/</guid>
+      <description>Palace of memory Also called: method of loci. A palace of memory is a mnemonic technique that allows one to store large ammounts of raw information by associating it to visual or auditive input already stored in memory.
+The steps to create a memory palace are:
+ Imagine a familiar place or route Chunck it into memorable steps (ex: visual landmarks) that serve like anchors. Translate your target remembrance object into a visual cue.</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://andirko.eu/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/cv/</guid>
+      <description>Due to my academic background I&amp;rsquo;ve got two kinds of CV:
+Regular CV  One page In Spanish Lists major accomplishments and skills as of 01/2021   See my regular CV here
+Academic CV  Lists every conference and article Detailed, several pages Listed preprint details might be out date.   See my academic CV here</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://andirko.eu/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/posts/</guid>
+      <description>Loose note-taking and personal logging  You may have noticed the &amp;lsquo;Journal log&amp;rsquo; tab above. Here&amp;#39;s what that&amp;#39;s about and why I keep one  Technical courses   Here are some of tools and tricks I&amp;rsquo;m using to ease my workflow at the command line.  Pedro Tiago Martins and I wrote a bash/shell beginners course. It covers most things you need to get you started.  Human evolution  I wrote some passing thoughts about hybridization and social cognition, with a very brief word about the importance of spatially-aware Population Genetics.</description>
+    </item>
+    
+    <item>
+      <title>Reading and hearing</title>
+      <link>https://andirko.eu/wiki/reading_vs_speech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/reading_vs_speech/</guid>
+      <description>Information (All?) languages convey a mean of ~39 bits (+-5b/s) of information per second ( source). Information is much more efficiently conveyed through writing.
+I&amp;rsquo;m not sold on speed reading though. It seems, in practice, that you necessarily compromise comprehension, in the same way playing really fast a passage compromises accuracy (both muscle precission and auditive processing of sound, I&amp;rsquo;d say) if you don&amp;rsquo;t have a very deliberate, controlled sequence of movements.</description>
+    </item>
+    
+    <item>
+      <title>Semantic tags</title>
+      <link>https://andirko.eu/wiki/semantic_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/semantic_tags/</guid>
+      <description>Semantic tags Early semantics used to be categoric, so that chair belongs to the wider category of furniture.
+However, semantic tags are much better to create meaning, since meaning is a lattice of emerging complexity rather than hierarchies of meaning.
+Semantic tags, at the same time, are informed by cultural practices and other assumption (related to our experience to the world). For example, walking assumes, among other things, having legs, the existence of gravity, having muscle control, etc.</description>
+    </item>
+    
+    <item>
+      <title>Solkattu</title>
+      <link>https://andirko.eu/wiki/solkattu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/solkattu/</guid>
+      <description>👏 Solkattu 👏  Solkattu (tamil for words bound together) is a musical tradition, originally from south India. Konnakol forces you to embody rhythms by vocalizing them with a set of basic syllabes arranged in increasingly difficult ways - in my experience, it is an excelent way to learn rhythmic vocabulary.
+ According to the internet, solkattu is a preliminary step to any musical training with instruments, specially in mrdangan percussion (for obvious reasons).</description>
+    </item>
+    
+    <item>
+      <title>Tech and degrowth</title>
+      <link>https://andirko.eu/wiki/tech_in_degrowth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/tech_in_degrowth/</guid>
+      <description>Is computing tech possible in degrowth? Take personal computing, to start with. Personal computing as it it right now, that&amp;rsquo;s for sure, for several reasons.
+ Individuality, as in we are encouraged to have one each. Redundancy: a household in a privileged country can have members have a smartphone and laptop (plus tablets). The supply chains and mean life of phones and computers are unsustainable long-term, specially in a no-fossil fuel future (if no alternatives for long-distance transportation and resource extractivism arise).</description>
+    </item>
+    
+    <item>
+      <title>Timba</title>
+      <link>https://andirko.eu/wiki/timba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/timba/</guid>
+      <description>Timba Timba is a genre of music from Cuba.
+Note:I&amp;rsquo;m not totally sure of everything I write hear. If you want to correct me on something, please do!
+Typical timba structure Songs tend to start with a preview of the montuno section Timba is organized in &amp;ldquo;gears&amp;rdquo;. Some of them are:
+ Presión, or pedal: all instruments drop except the piano, or the piano + voice. Marcha arriba, a call and response montuno section between the coro, lead singer.</description>
+    </item>
+    
+    <item>
+      <title>Videogames as a novel art</title>
+      <link>https://andirko.eu/wiki/videogames_as_art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/videogames_as_art/</guid>
+      <description>Videogames are the newest form of art In general terms, videogames are:
+ (Generally) ludic. Integrative of other forms of art. In a certain sense, it&amp;rsquo;s the opera of our time: a &amp;rsquo;total art&amp;rsquo; (à la Maetterlink&amp;rsquo;s L&amp;amp;rsquo;oisseau bleu) Input-hungry, in that even the most minimal form of videogame requires action from the player (generally) interacting with a set of virtual rules (physics, collision paths, dialog choices).  Videogames are, still, deeply generational and generally not considered a mature form of art, mostly due to the conservative nature (in commercial terms) of visible, triple-AAA games.</description>
+    </item>
+    
+    <item>
+      <title>Wiki</title>
+      <link>https://andirko.eu/wiki/meta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/meta/</guid>
+      <description>Why a personal wiki I tried Twitter but never managed to enjoy it.
+Part of it is that I used it as a purely profesional tool. I&amp;rsquo;ve done my share of personal tweeting before that, but even that way, it doesn&amp;rsquo;t ring true. Here&amp;rsquo;s what I was feeling didn&amp;rsquo;t work:
+ Feedback loops (retwees, likes, whatever you prefer) are embeded. Judgement (and expression of judgment) requires little to no effort. We all know the algorithm dictates the topic of the day.</description>
+    </item>
+    
+    <item>
+      <title>Zettelkasten</title>
+      <link>https://andirko.eu/wiki/zettelkasten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/zettelkasten/</guid>
+      <description>Zettelkasten method. Zettelkasten is german for &amp;lsquo;card index&amp;rsquo;. It&amp;rsquo;s an organization model that is:
+ Personal. Interrelational: each note can refer to other notes. Atomic (in terms of thought): each note contains one tought or unit of knowledge (vg: a web of references around a topic). Tagged  The beauty of the methods is that as long as note IDs are unique, you can refer to them in other notes (a sort of analog hyperlink method that is obviously very convenient when anyone can have a website).</description>
+    </item>
+    
+  </channel>
+</rss>
