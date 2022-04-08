@@ -39,6 +39,18 @@ Music Resources
     </item>
     
     <item>
+      <title>Code snippets of this website</title>
+      <link>https://andirko.eu/wiki/code_snippets_this_website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/code_snippets_this_website/</guid>
+      <description>Code snippets of this website I sometimes forget how things have been changed in this website, so where best than annotate them here. This is basically trivial css/html, but it&amp;rsquo;s a way for me to record how things change in case I want to tinker with them again.
+int test
+ext test
+Differenciating external from internal links This was a suggestion by Pedro that I quite liked. External and internal links are differenciated now so that external links have a small icon next to them, but internal ones don&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
       <title>Complex black boxes</title>
       <link>https://andirko.eu/wiki/complex_black_boxes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -106,7 +118,7 @@ Problems  Dependance on the strenght of the concatenated habit. The start of the
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andirko.eu/wiki/kolmogorov/</guid>
-      <description>Kolmogorov complexity Kolmogorov complexity measures algorithmic complexity, and it&amp;rsquo;s defined by the shortest possible algorithm leading to a program. For example, it might measure the algorithm that is formed by a series of genes producing an organ or ar organism (as originally read in here.
+      <description>Kolmogorov complexity Kolmogorov complexity measures algorithmic complexity, and it&amp;rsquo;s defined by the shortest possible algorithm leading to a program. For example, it might measure the algorithm that is formed by a series of genes producing an organ or ar organism (as originally read in here).
 Backlinking </description>
     </item>
     
