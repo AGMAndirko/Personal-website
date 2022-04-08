@@ -11,9 +11,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andirko.eu/wiki/ads/</guid>
-      <description>The design space under capitalism Consider the following: since we have cognitive biases that determine what tends to capture or attention, any system where that attention is something to compete for will eventually lead to exploiting those cognitive biases.
-That means the space of design under fierce competition (in an economy of attention such as the one fostered under capitalism) will always adopt certain harmful form under no regulation.
-That is: there is no form of advertising that is not exploitative.</description>
+      <description>Design spaces under capitalism Consider the following: since we have cognitive biases that determine what tends to capture or attention, any system where that attention is something to compete for will eventually lead to exploiting those cognitive biases. Those systems that do not profit for attention-grabbing mechanisms will not survive long unless they are necessary.
+That means that the space of design under fierce competition (in an economy of attention such as the one fostered under capitalism) will always adopt certain harmful form under no regulation.</description>
     </item>
     
     <item>
@@ -34,10 +33,9 @@ So:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andirko.eu/wiki/bookmarks/</guid>
-      <description>Bookmarks Since no tool I&amp;rsquo;ve used is really effective as a persistent place for my bookmarks, here&amp;rsquo;s my solution: just post them here. Just note that accumulation isn&amp;rsquo;t knowledge.
-(Linking doesn&amp;rsquo;t mean endorsment)
+      <description>Bookmarks Since no tool I&amp;rsquo;ve used is really effective as a persistent place for my bookmarks, here&amp;rsquo;s my solution: just post them here. Just note that accumulation isn&amp;rsquo;t knowledge, and that linking doesn&amp;rsquo;t mean endorsment, just curiosity.
 Music Resources
-  Jazz guitar  Ethan Hein&amp;#39;s blog  Toned ear ear training  3d printed violin by HOVA Labs  Preenfm2 synth  Rhythmbot for sightreading/inspiration/work  Coding   Python morsels  R to Python equivalencies 1, 2, 3  Exercism  Devdocs.</description>
+ Jazz guitar Ethan Hein&#39;s blog Toned ear ear training 3d printed violin by HOVA Labs Preenfm2 synth Rhythmbot for sightreading/inspiration/work Studiocode.dev, for MIDI-Meris integration.  Coding  Python morsels R to Python equivalencies 1, 2, 3 Exercism Devdocs.</description>
     </item>
     
     <item>
@@ -88,9 +86,7 @@ There are, arguably, four ways to do ear training, in increasing difficulty:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andirko.eu/wiki/english/</guid>
-      <description>English English is the vehicular language of these notes. It&amp;rsquo;s not my native language, but I feel like it kind of is becoming one, because my first contacts (my first real contacts, at least) with the language came from a computer.
-So, why write this personal space in english?
- It is de fact the lingua franca of internet But also: it has become a vehicle of expression and second nature (despite errors)  </description>
+      <description>English English is the vehicular language of these notes. It&amp;rsquo;s not my native language, but I feel like it kind of is becoming one, because my first contacts (my first real contacts, at least, even before meeting someone in regular conversation) with the language came from a computer. By the time I spoke with the first person in english in a day-to-day situation I had absorbed a culture that revolved around this single language.</description>
     </item>
     
     <item>
@@ -120,8 +116,7 @@ Backlinking </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andirko.eu/wiki/learning/</guid>
-      <description>Learning Resource: https://szymonkaliski.com/notes/learning/
-Writing is processing At a certain point, reading doesn&amp;rsquo;t increase the consolidation of knowledge: writing does. There&amp;rsquo;s some research on the benefits of note-taking vs just listening in classes, for example. Note also that it seems physical writing is more beneficial than digital note-taking (similarly as in ear training and the benefits of music interpretation?).
+      <description>Learning Writing is processing At a certain point, reading doesn&amp;rsquo;t increase the consolidation of knowledge: writing does. There&amp;rsquo;s some research on the benefits of note-taking vs just listening in classes, for example. Note also that it seems physical writing is more beneficial than digital note-taking (similarly as in ear training and the benefits of music interpretation?).
  This might be, in fact, a good point in favor for a physical zettelkasten vs a digital one, like this one (see meta), if it weren&amp;rsquo;t for the digital advantages of easier portability, backup capacities, text-processing and such.</description>
     </item>
     
@@ -133,7 +128,7 @@ Writing is processing At a certain point, reading doesn&amp;rsquo;t increase the
       <guid>https://andirko.eu/wiki/liquid_tuples/</guid>
       <description>Liquid tuples Liquid tuples, or liquid grooves, is a way of writting rhythms created (as far as I know) by WTF grooves, a youtube/instagram channel.
 Roughly, it consist on experiments substracting or adding units from tuples, while keeping the lenght of the subunits of the tuples. One can have, for example:
- A four note septuplet. A five note triplet. Nested modified tuplets ( here is a website for a midi implementation.</description>
+ A four note septuplet. A five note triplet. Nested modified tuplets (here is a website for a midi implementation.</description>
     </item>
     
     <item>
@@ -183,7 +178,7 @@ The steps to create a memory palace are:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://andirko.eu/wiki/reading_vs_speech/</guid>
-      <description>Information (All?) languages convey a mean of ~39 bits (+-5b/s) of information per second ( source). Information is much more efficiently conveyed through writing.
+      <description>Information (All?) languages convey a mean of ~39 bits (+-5b/s) of information per second (source). Information is much more efficiently conveyed through writing.
 I&amp;rsquo;m not sold on speed reading though. It seems, in practice, that you necessarily compromise comprehension, in the same way playing really fast a passage compromises accuracy (both muscle precission and auditive processing of sound, I&amp;rsquo;d say) if you don&amp;rsquo;t have a very deliberate, controlled sequence of movements.</description>
     </item>
     
@@ -237,7 +232,7 @@ Typical timba structure Songs tend to start with a preview of the montuno sectio
       
       <guid>https://andirko.eu/wiki/videogames_as_art/</guid>
       <description>Videogames are the newest form of art In general terms, videogames are:
- (Generally) ludic. Integrative of other forms of art. In a certain sense, it&amp;rsquo;s the opera of our time: a &amp;rsquo;total art&amp;rsquo; (à la Maetterlink&amp;rsquo;s L&amp;amp;rsquo;oisseau bleu) Input-hungry, in that even the most minimal form of videogame requires action from the player (generally) interacting with a set of virtual rules (physics, collision paths, dialog choices).  Videogames are, still, deeply generational and generally not considered a mature form of art, mostly due to the conservative nature (in commercial terms) of visible, triple-AAA games.</description>
+ (Generally) ludic. Integrative of other forms of art. In a certain sense, it&amp;rsquo;s the opera of our time: a &amp;rsquo;total art&amp;rsquo; (à la Maetterlink&amp;rsquo;s L&amp;rsquo;oisseau bleu) Input-hungry, in that even the most minimal form of videogame requires action from the player (generally) interacting with a set of virtual rules (physics, collision paths, dialog choices).  Videogames are, still, deeply generational and generally not considered a mature form of art, mostly due to the conservative nature (in commercial terms) of visible, triple-AAA games.</description>
     </item>
     
     <item>
