@@ -74,17 +74,17 @@
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Pretty standard.
-To differenciate between internal and external links, it turns out there are such things as conditions in scss/Sass, so first I tried this to see what happens:</p>
+To differenciate between internal and external links, it turns out there are such things as conditions in css, so first I tried this to see what happens:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#f92672">%</span><span style="color:#a6e22e">link-default</span><span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">^=</span><span style="color:#e6db74">&#34;http*&#34;</span><span style="color:#f92672">]</span> {
 </span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">...</span>
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>Meaning: use this class for links with an object containing any substring in &ldquo;http&rdquo;.</p>
+</span></span></code></pre></div><p>Meaning: use this class for links with an object containing any substring in &ldquo;http&rdquo;. I&rsquo;m aware this is scss, not css, but I didn&rsquo;t want to create a whole new class for external links, or worse, use javascript (<strong>ugh</strong>).</p>
 <p>My config TOML looks like this (following some Hugo reference guide, probably):</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">permalinks</span>]
 </span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;/&#34;</span> = <span style="color:#e6db74">&#34;/:filename/&#34;</span>
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>&hellip;meaning this snippet of Markdown: <code>[link](/)</code> produces this <a href="/">link</a> that doesn&rsquo;t have &ldquo;https&rdquo; in it when it&rsquo;s parsed by scss.</p>
-<p>Anyway, the reason this didn&rsquo;t work is that <a href="/log/">my log</a> and <a href="/wiki/">wiki</a> index files where not just templates. My <a href="post/">post index</a> was written by hand, since I wanted a small handwritten summary for each and I didn&rsquo;t have time to deal with Hugo shenannigans, but I didn&rsquo;t want to keep the same for my wiki, for example, since <a href="wiki/zettelkasten">note-taking</a> should be frictionless.</p>
+</span></span></code></pre></div><p>&hellip;meaning this snippet of Markdown: <code>[link](/)</code> produces this <a href="/">link</a> that doesn&rsquo;t have &ldquo;https&rdquo; in it when processed by scss.</p>
+<p>Anyway, the reason this didn&rsquo;t work is that <a href="/log/">my log</a> and <a href="/wiki/">wiki</a> index files where not just templates. My <a href="post/">post index</a> was written by hand, since I wanted a small handwritten summary for each and I didn&rsquo;t have time to deal with Hugo shenannigans, but I didn&rsquo;t want to keep the same for my wiki, for example, since [note-taking](wiki/zettelkasten should be frictionless).</p>
 <p>So, inside my website-building folder, in <code>layouts</code>, I created <code>\log\list.html</code> (specifically in layouts since I didn&rsquo;t want to change the theme itself, and Hugo always takes your personal <code>layouts</code> over the theme).</p>
 <p>In there, I fine-tunned things until I reached this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ define &#34;main&#34; }}
@@ -116,6 +116,28 @@ To differenciate between internal and external links, it turns out there are suc
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">@extend</span> <span style="color:#f92672">%</span><span style="color:#a6e22e">link-default</span>
 </span></span><span style="display:flex;"><span>     }
 </span></span></code></pre></div><p>And that&rsquo;s it.</p>
+<h4 id="arvelie-date-calculation">Arvelie date calculation</h4>
+<p>I used to do this by hand, but once I noticed I was getting some dates wrong (by counting days 01-14 instead of 0-13) I wrote a small bash script to keep in my <code>.bashrc</code> and get the daily date.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e">#current day arvelie date</span>
+</span></span><span style="display:flex;"><span>arvelie<span style="color:#f92672">(){</span>
+</span></span><span style="display:flex;"><span>    DATE<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>date +%j<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>    MT<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>expr $DATE / 14<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>    REST<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>expr $DATE % 14<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    let i<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> letter in <span style="color:#f92672">{</span>A..Z<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $i -eq $MT <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">[</span> $REST -lt <span style="color:#ae81ff">10</span> <span style="color:#f92672">]</span> ;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>                echo 00<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>letter<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>0$REST
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> $i -eq $MT <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">[</span> $REST -gt 10<span style="color:#f92672">]</span> ;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>                echo 00$letter$REST
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">((</span>i++<span style="color:#f92672">))</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>Not very elegant, but works fine.</p>
 <h1 id="backlinking">Backlinking</h1>
 
 </div>
