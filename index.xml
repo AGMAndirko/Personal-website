@@ -184,8 +184,6 @@ Music Resources
       
       <guid>https://andirko.eu/wiki/code_snippets_this_website/</guid>
       <description>Code snippets of this website I sometimes forget how things have been changed in this website, so where best than annotate them here. This is basically trivial css/html, but it&amp;rsquo;s a way for me to record how things change in case I want to tinker with them again.
-int test
-ext test
 Differenciating external from internal links This was a suggestion by Pedro that I quite liked. External and internal links are differenciated now so that external links have a small icon next to them, but internal ones don&amp;rsquo;t.</description>
     </item>
     

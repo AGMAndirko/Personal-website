@@ -59,8 +59,6 @@
 <div class="container">
     <h1 id="code-snippets-of-this-website">Code snippets of this website</h1>
 <p>I sometimes forget how things have been changed in this website, so where best than annotate them here. This is basically trivial css/html, but it&rsquo;s a way for me to record how things change in case I want to tinker with them again.</p>
-<p><a href="/">int test</a></p>
-<p><a href="https://ptmartins.info">ext test</a></p>
 <h4 id="differenciating-external-from-internal-links">Differenciating external from internal links</h4>
 <p>This was a suggestion by <a href="https://ptmartins.info">Pedro</a> that I quite liked. External and internal links are differenciated now so that external links have a small icon next to them, but internal ones don&rsquo;t.</p>
 <p>Most of the styling of this website comes from two <code>.scss</code> files directly sourced from the researcher theme I run (in <a href="https://gohugo.io/">Hugo</a>, the static webpage I&rsquo;ve been using for a while, that&rsquo;d be <code>theme/researcher/assets/sass/*.scss</code>.</p>
@@ -105,14 +103,9 @@ To differenciate between internal and external links, it turns out there are suc
 <p>Roughly, this code is producing what you can see <a href="log/">here</a>. But notice how the links in there don&rsquo;t have the external link icon I put on the rest, while the code above did produce the icon. The problem was <code>{{ .Permalink }}</code>. This below worked:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">li</span>&gt;&lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .RelPermalink }}&#34;</span>&gt;{{ .Title }}&lt;/<span style="color:#f92672">a</span>&gt;: {{ .Description }} &lt;/<span style="color:#f92672">li</span>&gt;
 </span></span></code></pre></div><p>So now my Log index is a list of relative links (such as <code>/log/reading_log</code>) rather than full permalinks (such as <code>https://andirko.eu/log/reading_log</code>).</p>
-<p>However, that was still not enough, as applying the scss selector to links forced me to create a new class if I wanted both internal and external link styling.</p>
-<p>There was a way easier way to do this. Turns out, it was editing the <code>a</code> object directly with a selector (make it a link <code>[href]</code> that doesn&rsquo;t capture my domain <code>not([href*=&quot;andirko&quot;])</code>).  This was done directly in the other file in <code>layouts</code>, <code>variables.scss</code>.
-The rest was a matter of adding the symbol for external links and some styling with <code>:after</code>.:</p>
+<p>Now I just had to add a small bit for external links (urls containing &ldquo;//&rdquo;). This was done directly in the other file in <code>layouts</code>, <code>variables.scss</code>. The rest was a matter of adding a small symbol for those and some styling with <code>:after</code>.:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#66d9ef">@import</span> <span style="color:#e6db74">&#34;variables&#34;</span>;
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">.nav-link</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">@extend</span> <span style="color:#f92672">%</span><span style="color:#a6e22e">link-default</span>;
-</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">...</span>
 </span></span><span style="display:flex;"><span>#content {
 </span></span><span style="display:flex;"><span>     <span style="color:#f92672">a</span><span style="color:#f92672">[</span><span style="color:#f92672">href</span><span style="color:#f92672">*=</span><span style="color:#e6db74">&#34;//&#34;</span><span style="color:#f92672">]</span><span style="color:#a6e22e">:after</span>{
 </span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">font-size</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">8</span><span style="color:#66d9ef">px</span>;
