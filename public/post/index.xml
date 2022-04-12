@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alejandro M. Andirkó</title>
+    <link>https://andirko.eu/post/</link>
+    <description>Recent content in Posts on Alejandro M. Andirkó</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 10 Jan 2022 16:38:37 +0100</lastBuildDate><atom:link href="https://andirko.eu/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal log</title>
+      <link>https://andirko.eu/post/log/</link>
+      <pubDate>Mon, 10 Jan 2022 16:38:37 +0100</pubDate>
+      
+      <guid>https://andirko.eu/post/log/</guid>
+      <description>A personal log After leaving academia I have been thinking about what to do about this website. I inititally started it as a way to display my CV and preprints, as well as a platform for courses and tech blogging.
+Now, I&amp;rsquo;m starting to shift this website from a professional display to a more personal place - a kind of digital garden with an open focus. This kind of self-reflective, non-performative note-taking is way more interesting to me than, say, Twitter.</description>
+    </item>
+    
+    <item>
+      <title>How much did admixture depend on social cognition in the past?</title>
+      <link>https://andirko.eu/post/hybrid_social/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/hybrid_social/</guid>
+      <description>How much did admixture depend on social cognition in the human past? Here is a funny idea. Those of you that keep up with human evolution studies know that hybridization is a hot topic: as time passes by, we learn of more and more introgression events in the human deep past. Most people, even outside academic circles, are aware of the Neanderthal and Denisovan introgression. What seems to be the case is that the picture is way more complicated the more we know, including bidirectial admixture, potential unkown species admixture events between extinct human species, and overall a myriad of possibilities that we are discovering only now.</description>
+    </item>
+    
+    <item>
+      <title>Poster with no text</title>
+      <link>https://andirko.eu/post/poster_no_words/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/poster_no_words/</guid>
+      <description>I presented a poster with no text - here&amp;rsquo;s my experience At some point when I was learning the ropes of academic life I read on Twitter that scientific posters should have as little text as possible.
+For some context, I don&amp;rsquo;t really like posters, overall. I tend to see them as a lot of one-use-only sunk cost. I appreciate the format, but it takes a ridiculous ammount of preparation, compared, to, for example, a talk.</description>
+    </item>
+    
+    <item>
+      <title>An intro to the CLi</title>
+      <link>https://andirko.eu/post/introterm/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/introterm/</guid>
+      <description>An introduction to the Command-Line interface Too afraid to stare into the black abyss of your computer&amp;rsquo;s terminal? Do you want to learn to use it but have no clue where to start or why should you care about tools written decades ago? Don&amp;rsquo;t worry, we&amp;rsquo;ve got you covered with all that serious stuff.
+This is a beginners course Pedro Tiago Martins and I wrote it originally for internal use in our research group.</description>
+    </item>
+    
+    <item>
+      <title>Command-line tips</title>
+      <link>https://andirko.eu/post/cli_tips/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/cli_tips/</guid>
+      <description>Data exploration and manipulation tips Programs like grep, sed and awk have been around for decades, and they sure have survived the test of time: some of these tools are significantly faster than some of the fancy new data science programs out there (as long as your data is not weirdly formated, at least). It shouldn&amp;rsquo;t be a surprise that anyone manipulating data still uses them, because unix tools are a wonder.</description>
+    </item>
+    
+    <item>
+      <title>Why I like the term molecular archaeology</title>
+      <link>https://andirko.eu/post/mol_arch/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/mol_arch/</guid>
+      <description>&amp;ldquo;What do you do?&amp;rdquo;: A two word summary It used to be the hardest question to answer for me. The verbose answer is something like what I have in the About me section of my website:
+I study human cognition from a very interdisciplinary approach, including data from Genetics, Neurobiology, Comparative Cognition, Archaeology and early brain development. Me, trying to sound fancier than I am  It&amp;rsquo;s not a bad description, I guess.</description>
+    </item>
+    
+    <item>
+      <title>The myth of scientific excellence</title>
+      <link>https://andirko.eu/post/excellence/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/excellence/</guid>
+      <description>The myth of scientific excellence As a researcher in Spain, I face some very challenging odds if I want to be a researcher in this country. That&amp;rsquo;s a question of numbers, and the consequence of some terrible cumulative decisisions on science policy.
+Funnily enough, I often see this kind of statements in job adverts, governmental statementsand such where we are sold that X place searches &amp;ldquo;excellent&amp;rdquo; researchers, or is a hub of &amp;ldquo;excellence&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Academic Travel</title>
+      <link>https://andirko.eu/post/academic_travel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/post/academic_travel/</guid>
+      <description>Academic travel and climate I&amp;rsquo;ve travelled on plane more times that I can count. Part of my family lives in Hungary, and I grew up in Spain, so I&amp;rsquo;ve taken countless back-and-forth trips to visit them, at least once a year and sometimes more. So when people told me that academics go to conferences, I didn&amp;rsquo;t see any problem. In fact it seems pretty cool - you have to present your work anyway, so why not do it somewhere nice, while meeting new people and places?</description>
+    </item>
+    
+  </channel>
+</rss>

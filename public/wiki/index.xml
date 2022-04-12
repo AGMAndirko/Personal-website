@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikis on Alejandro M. Andirkó</title>
+    <link>https://andirko.eu/wiki/</link>
+    <description>Recent content in Wikis on Alejandro M. Andirkó</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://andirko.eu/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ads, or the design space</title>
+      <link>https://andirko.eu/wiki/ads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/ads/</guid>
+      <description>Design spaces under capitalism Consider the following: since we have cognitive biases that determine what tends to capture or attention, any system where that attention is something to compete for will eventually lead to exploiting those cognitive biases. Those systems that do not profit for attention-grabbing mechanisms will not survive long unless they are necessary.
+That means that the space of design under fierce competition (in an economy of attention such as the one fostered under capitalism) will always adopt certain harmful form under no regulation.</description>
+    </item>
+    
+    <item>
+      <title>Barry Harris</title>
+      <link>https://andirko.eu/wiki/barry_harris/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/barry_harris/</guid>
+      <description>Notes around Barry Harris Chromaticism forms a harmonic lattice.
+Major 6th chords For BH, Major 6 cords have an extra #5/b6 note (making playing it with all the tensions and chord note an octatonic scale with an in-built diminished 7th between the 2nd and 7th degree.
+So:
+ Maj7: R/1 9 3rd 11 5 #5!/b13 13 7 R Within: from the 9th to the 7th, there&amp;rsquo;s a diminished 7th chord a semitone down away</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>https://andirko.eu/wiki/bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/bookmarks/</guid>
+      <description>Bookmarks Since no tool I&amp;rsquo;ve used is really effective as a persistent place for my bookmarks, here&amp;rsquo;s my solution: just post them here. Just note that accumulation isn&amp;rsquo;t knowledge, and that linking doesn&amp;rsquo;t mean endorsment, just curiosity.
+Music Resources
+ Jazz guitar Ethan Hein&#39;s blog Toned ear ear training 3d printed violin by HOVA Labs Preenfm2 synth Rhythmbot for sightreading/inspiration/work Studiocode.dev, for MIDI-Meris integration.  Coding  Python morsels R to Python equivalencies 1, 2, 3 Exercism Devdocs.</description>
+    </item>
+    
+    <item>
+      <title>Code snippets of this website</title>
+      <link>https://andirko.eu/wiki/code_snippets_this_website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/code_snippets_this_website/</guid>
+      <description>Code snippets of this website I sometimes forget how things have been changed in this website, so where best than annotate them here. This is basically trivial css/html, but it&amp;rsquo;s a way for me to record how things change in case I want to tinker with them again.
+Differenciating external from internal links This was a suggestion by Pedro that I quite liked. External and internal links are differenciated now so that external links have a small icon next to them, but internal ones don&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
+      <title>Complex black boxes</title>
+      <link>https://andirko.eu/wiki/complex_black_boxes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/complex_black_boxes/</guid>
+      <description>Most objects are black boxes The level of complexity of our houses and cities has an inverse relationship with the knowledge we have about the objects that populate it, for obvious reasons: for a citizen in a medium city to know how everhing they use works, they would have to spend much time absorbing specific knowledge. Of course, this is impractical.
+The problem is that this black box attitude has permeated culture in places where electronic devices are common.</description>
+    </item>
+    
+    <item>
+      <title>Constructed languages - conlangs</title>
+      <link>https://andirko.eu/wiki/conlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/conlang/</guid>
+      <description>Conlangs are constructed languages When I was about 18 I was fascinated by constructed languages. I&amp;rsquo;ve been fascinated lately by constructed languages. I lost all joy around linguistics in academic terms some time ago, but I recently found a wikipedia article I had read at some point and then forgotten over the years. The article was about ithkuil, an experimental language famous for being as informationally dense as possible.
+As I was thinking about this, I had an idea for a conlang project:</description>
+    </item>
+    
+    <item>
+      <title>Dithering</title>
+      <link>https://andirko.eu/wiki/dithering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/dithering/</guid>
+      <description>Dithering Dithering is a form of image manipulation that, roughly, imposes a bandwidth filter to colors. In a certain sense, dithering is totally unnecessary, only interesting in the way one controls the noise introduced by the color filtering. However, it&amp;rsquo;s a whole aesthetic choice, regularly associated with the low-consumption internet/permacomputing movement.
+I enjoy the effect very much and use it profusely over this website.
+References: How to apply to a low tech website: https://homebrewserver.</description>
+    </item>
+    
+    <item>
+      <title>Ear training</title>
+      <link>https://andirko.eu/wiki/ear_training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/ear_training/</guid>
+      <description>Ear training You can&amp;rsquo;t produce what you can&amp;rsquo;t audiate, or listen in your mind. Ear training is essential to music training.
+There are, arguably, four ways to do ear training, in increasing difficulty:
+ Passively listening to music (probably age dependent). Practicing without an instrument (usually, websites and apps) Practicing with an instrument. Actively trying to conceptualize within a theoretical framework what&amp;rsquo;s happening in the music: transcribing.  Arguably, three and four are the most transferable approaches when one is a musician.</description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://andirko.eu/wiki/english/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/english/</guid>
+      <description>English English is the vehicular language of these notes. It&amp;rsquo;s not my native language, but I feel like it kind of is becoming one, because my first contacts (my first real contacts, at least, even before meeting someone in regular conversation) with the language came from a computer. By the time I spoke with the first person in english in a day-to-day situation I had absorbed a culture that revolved around this single language.</description>
+    </item>
+    
+    <item>
+      <title>Habit glueing</title>
+      <link>https://andirko.eu/wiki/habit_glueing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/habit_glueing/</guid>
+      <description>Habit glueing New habits are hard to create. There are many ways to introduce a new habit: one of the most interesting ones is habit glueing, where you coopt the existence of an already formed habit and glue, or concatenate in succession, the new one.
+For example, one might choose to always play ten minutes of piano after cleaning teeth.
+Problems  Dependance on the strenght of the concatenated habit. The start of the glued habit must require a minimal effort inversion, so that structural bariers don&amp;rsquo;t interfere with habit building.</description>
+    </item>
+    
+    <item>
+      <title>Kolmogorov complexity</title>
+      <link>https://andirko.eu/wiki/kolmogorov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/kolmogorov/</guid>
+      <description>Kolmogorov complexity Kolmogorov complexity measures algorithmic complexity, and it&amp;rsquo;s defined by the shortest possible algorithm leading to a program. For example, it might measure the algorithm that is formed by a series of genes producing an organ or ar organism (as originally read in here).
+Backlinking </description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>https://andirko.eu/wiki/learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/learning/</guid>
+      <description>Learning Writing is processing At a certain point, reading doesn&amp;rsquo;t increase the consolidation of knowledge: writing does. There&amp;rsquo;s some research on the benefits of note-taking vs just listening in classes, for example. Note also that it seems physical writing is more beneficial than digital note-taking (similarly as in ear training and the benefits of music interpretation?).
+ This might be, in fact, a good point in favor for a physical zettelkasten vs a digital one, like this one (see meta), if it weren&amp;rsquo;t for the digital advantages of easier portability, backup capacities, text-processing and such.</description>
+    </item>
+    
+    <item>
+      <title>Liquid tuples</title>
+      <link>https://andirko.eu/wiki/liquid_tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/liquid_tuples/</guid>
+      <description>Liquid tuples Liquid tuples, or liquid grooves, is a way of writting rhythms created (as far as I know) by WTF grooves, a youtube/instagram channel.
+Roughly, it consist on experiments substracting or adding units from tuples, while keeping the lenght of the subunits of the tuples. One can have, for example:
+ A four note septuplet. A five note triplet. Nested modified tuplets (here is a website for a midi implementation.</description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>https://andirko.eu/wiki/meta/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/meta/</guid>
+      <description>Why a personal wiki I tried Twitter but never managed to enjoy it.
+Part of it is that I used it as a purely profesional tool. I&amp;rsquo;ve done my share of personal tweeting before that, but even that way, it doesn&amp;rsquo;t ring true. Here&amp;rsquo;s what I was feeling didn&amp;rsquo;t work:
+ Feedback loops (retwees, likes, whatever you prefer) are embeded. Judgement (and expression of judgment) requires little to no effort. In fact, opinions have such a low cost that Twitter has become notoriously toxic.</description>
+    </item>
+    
+    <item>
+      <title>Microrhythms</title>
+      <link>https://andirko.eu/wiki/microrhythm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/microrhythm/</guid>
+      <description>Microrhythms Note: This post is a quick self note about what I&amp;rsquo;ve learned from Malcom Braff&amp;rsquo;s lectures. Check the resources / youtube for the details of the theory.
+Western notation is terrible at notating microrhythm. Effectively, it doesn&amp;rsquo;t even have a way to notate small variations in time, or at least not a practical one. Western notation is focused on linear, 2-exponent representations of rhythm (tuples are rare to come by).</description>
+    </item>
+    
+    <item>
+      <title>Moral disonances</title>
+      <link>https://andirko.eu/wiki/moral_disonances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/moral_disonances/</guid>
+      <description>Moral dissonances applied to climate change, veganism and other causes Intellectual knowledge of moral facts doesn&amp;rsquo;t cause behavioural changes unless coupled with emotional engagement.
+For example: one might be convinced that giving up meat-eating is the most ethical posture and still not act out. What&amp;rsquo;s the root of this behaviour?
+My gut feeling is that the emotional reactions out of societal pressure are not counteracted by an emotional empathy towards the animals.</description>
+    </item>
+    
+    <item>
+      <title>Music interpretation</title>
+      <link>https://andirko.eu/wiki/benefits_music_interpretation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/benefits_music_interpretation/</guid>
+      <description>The benefits of interpretation  Most people exposed to music are able to audiate Playing (any) instrument means expanding your body to produce sound. However, what&amp;rsquo;s embodied in a physical instrument vs developing a musical software one is different (not necessarily better or worse). Interpretation of a given piece forces oneself to focus on how the body and mind produce sound. Improvisation can happen, because the feedback loop between audation and muscle memory is instantaneous.</description>
+    </item>
+    
+    <item>
+      <title>Notes from Dilla Time</title>
+      <link>https://andirko.eu/wiki/notes_dilla_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/notes_dilla_time/</guid>
+      <description>Notes from Dilla Time These are stray notes I take from Dilla Time, the excellent book by Dan Charnas on J Dilla.
+ Solos in jazz don&amp;rsquo;t usually start on the first beat, rather entering in a delayed fashion. This defiance of expectation is a built-in feature of african-american diaspora music, and almost an act of rebellion agains straght-time melody of european tradition. Funk is the building up up tension towards the One - via rhythm.</description>
+    </item>
+    
+    <item>
+      <title>Palace of memory</title>
+      <link>https://andirko.eu/wiki/palace_of_memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/palace_of_memory/</guid>
+      <description>Palace of memory Also called: method of loci. A palace of memory is a mnemonic technique that allows one to store large ammounts of raw information by associating it to visual or auditive input already stored in memory.
+The steps to create a memory palace are:
+ Imagine a familiar place or route Chunck it into memorable steps (ex: visual landmarks) that serve like anchors. Translate your target remembrance object into a visual cue.</description>
+    </item>
+    
+    <item>
+      <title>Reading and hearing</title>
+      <link>https://andirko.eu/wiki/reading_vs_speech/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/reading_vs_speech/</guid>
+      <description>Information (All?) languages convey a mean of ~39 bits (+-5b/s) of information per second (source). Information is much more efficiently conveyed through writing.
+I&amp;rsquo;m not sold on speed reading though. It seems, in practice, that you necessarily compromise comprehension, in the same way playing really fast a passage compromises accuracy (both muscle precission and auditive processing of sound, I&amp;rsquo;d say) if you don&amp;rsquo;t have a very deliberate, controlled sequence of movements.</description>
+    </item>
+    
+    <item>
+      <title>Semantic tags</title>
+      <link>https://andirko.eu/wiki/semantic_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/semantic_tags/</guid>
+      <description>Semantic tags Early semantics used to be categoric, so that chair belongs to the wider category of furniture.
+However, semantic tags are much better to create meaning, since meaning is a lattice of emerging complexity rather than hierarchies of meaning.
+Semantic tags, at the same time, are informed by cultural practices and other assumption (related to our experience to the world). For example, walking assumes, among other things, having legs, the existence of gravity, having muscle control, etc.</description>
+    </item>
+    
+    <item>
+      <title>Solkattu</title>
+      <link>https://andirko.eu/wiki/solkattu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/solkattu/</guid>
+      <description>👏 Solkattu 👏  Solkattu (tamil for words bound together) is a musical tradition, originally from south India. Konnakol forces you to embody rhythms by vocalizing them with a set of basic syllabes arranged in increasingly difficult ways - in my experience, it is an excelent way to learn rhythmic vocabulary.
+ According to the internet, solkattu is a preliminary step to any musical training with instruments, specially in mrdangan percussion (for obvious reasons).</description>
+    </item>
+    
+    <item>
+      <title>Tech and degrowth</title>
+      <link>https://andirko.eu/wiki/tech_in_degrowth/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/tech_in_degrowth/</guid>
+      <description>Is computing tech possible in degrowth? Take personal computing, to start with. Personal computing as it it right now, that&amp;rsquo;s for sure, for several reasons.
+ Individuality, as in we are encouraged to have one each. Redundancy: a household in a privileged country can have members have a smartphone and laptop (plus tablets). The supply chains and mean life of phones and computers are unsustainable long-term, specially in a no-fossil fuel future (if no alternatives for long-distance transportation and resource extractivism arise).</description>
+    </item>
+    
+    <item>
+      <title>Timba</title>
+      <link>https://andirko.eu/wiki/timba/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/timba/</guid>
+      <description>Timba Timba is a genre of music from Cuba.
+Note:I&amp;rsquo;m not totally sure of everything I write hear. If you want to correct me on something, please do!
+Typical timba structure Songs tend to start with a preview of the montuno section Timba is organized in &amp;ldquo;gears&amp;rdquo;. Some of them are:
+ Presión, or pedal: all instruments drop except the piano, or the piano + voice. Marcha arriba, a call and response montuno section between the coro, lead singer.</description>
+    </item>
+    
+    <item>
+      <title>Upper structure harmonies</title>
+      <link>https://andirko.eu/wiki/upper_structure_harmonies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/upper_structure_harmonies/</guid>
+      <description>Chord tensions Natural chord tensions form corresponding arpeggios on top of chords.
+For example:
+ A minor 7th has three tensions: 9, 11, 13. Together with the 7th they form a major 7 arpeggio a tone below.  This relationship results in the following table:
+   chord From 7th From 9th     Minor 7th b7+9+11+13 = Maj7 9+11+13+R = Min 7th   Min 7th b5 b7+9+11+b13 = Full diminished 9+11+b13+R = Min 7th b5   Dom 7th b7+9+#11+13 = 5# 7th 9+11#+13+R = Dom 7th   Maj 7th 7+9+#11+13 = Min 7th 9+11#+13+R = Dom 7th    * (R = Root, 8va) Patterns start to emerge, as some tensions prodice the same kind of chords (but a tone away).</description>
+    </item>
+    
+    <item>
+      <title>Videogames as a novel art</title>
+      <link>https://andirko.eu/wiki/videogames_as_art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/videogames_as_art/</guid>
+      <description>Videogames are the newest form of art In general terms, videogames are:
+ (Generally) ludic. Integrative of other forms of art. In a certain sense, it&amp;rsquo;s the opera of our time: a &amp;rsquo;total art&amp;rsquo; (à la Maetterlink&amp;rsquo;s L&amp;rsquo;oisseau bleu) Input-hungry, in that even the most minimal form of videogame requires action from the player (generally) interacting with a set of virtual rules (physics, collision paths, dialog choices).  Videogames are, still, deeply generational and generally not considered a mature form of art, mostly due to the conservative nature (in commercial terms) of visible, triple-AAA games.</description>
+    </item>
+    
+    <item>
+      <title>Zettelkasten</title>
+      <link>https://andirko.eu/wiki/zettelkasten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andirko.eu/wiki/zettelkasten/</guid>
+      <description>Zettelkasten method. Zettelkasten is german for &amp;lsquo;card index&amp;rsquo;. It&amp;rsquo;s an organization model that is:
+ Personal. Interrelational: each note can refer to other notes. Atomic (in terms of thought): each note contains one tought or unit of knowledge (vg: a web of references around a topic). Tagged  The beauty of the methods is that as long as note IDs are unique, you can refer to them in other notes (a sort of analog hyperlink method that is obviously very convenient when anyone can have a website).</description>
+    </item>
+    
+  </channel>
+</rss>
