@@ -130,7 +130,7 @@ To differenciate between internal and external links, it turns out there are suc
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $i -eq $MT <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">[</span> $REST -lt <span style="color:#ae81ff">10</span> <span style="color:#f92672">]</span> ;
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>                echo 00<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>letter<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>0$REST
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> $i -eq $MT <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">[</span> $REST -gt 10<span style="color:#f92672">]</span> ;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> $i -eq $MT <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">[</span> $REST -ge 10<span style="color:#f92672">]</span> ;
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">then</span>
 </span></span><span style="display:flex;"><span>                echo 00$letter$REST
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">fi</span>
